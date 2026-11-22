@@ -117,7 +117,10 @@ def get_place_costs(places, country=None, currency=None):
     costs = costs[costs["_Match_Count"] == 1].copy()
 
     costs = costs.drop(columns=["_Match_Count"])
-
+    places =  places.drop(
+        columns=["Entry_Fee", "Entry_Fee_Currency"],
+        errors="ignore"
+    )
     return places.merge(
         costs[
             merge_columns + ["Entry_Fee", "Currency"]
@@ -128,6 +131,7 @@ def get_place_costs(places, country=None, currency=None):
         how="left",
         suffixes=("", "_cost")
     )
+    
 
 
 # ----------------------------------

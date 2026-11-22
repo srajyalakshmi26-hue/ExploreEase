@@ -10,6 +10,16 @@ FARE_PATH = os.path.join(
 )
 
 
+def validate_currency(currency):
+
+    currency = str(currency).strip().upper()
+
+    if len(currency) != 3 or not currency.isalpha():
+        raise ValueError("Enter a valid three-letter currency code")
+
+    return currency
+
+
 def load_fare_data():
 
     if not os.path.exists(FARE_PATH):
@@ -37,7 +47,8 @@ def find_transport_options(
         "Destination",
         "Transport_Type",
         "Fare_Amount",
-        "Verification_Status"
+        "Verification_Status",
+        "Currency"
     ]
 
     if not all(column in fares_df.columns for column in required_columns):
@@ -53,27 +64,34 @@ def find_transport_options(
             fares_df[column].astype(str).str.strip().str.lower()
         )
 
-    city = city.strip().lower()
-    starting_point = starting_point.strip().lower()
-    destination = destination.strip().lower()
-
     route_fares = fares_df[
-        (fares_df["City"] == city)
-        & (fares_df["Starting_Point"] == starting_point)
-        & (fares_df["Destination"] == destination)
+        (fares_df["City"] == city.strip().lower())
+        & (fares_df["Starting_Point"] == starting_point.strip().lower())
+        & (fares_df["Destination"] == destination.strip().lower())
     ].copy()
 
-    if country and "Country" in route_fares.columns:
+    if country:
+
+        if "Country" not in route_fares.columns:
+            return pd.DataFrame()
+
         route_fares = route_fares[
             route_fares["Country"].astype(str).str.strip().str.lower()
             == country.strip().lower()
         ]
 
-    if currency and "Currency" in route_fares.columns:
+    if currency:
+
+        currency = validate_currency(currency)
+
         route_fares = route_fares[
             route_fares["Currency"].astype(str).str.strip().str.upper()
-            == currency.strip().upper()
+            == currency
         ]
+
+    route_fares["Currency"] = (
+        route_fares["Currency"].astype(str).str.strip().str.upper()
+    )
 
     route_fares["Fare_Amount"] = pd.to_numeric(
         route_fares["Fare_Amount"],
@@ -81,11 +99,19 @@ def find_transport_options(
     )
 
     route_fares = route_fares.dropna(subset=["Fare_Amount"])
-    route_fares = route_fares[route_fares["Fare_Amount"] >= 0]
 
-    return route_fares.sort_values(
-        "Fare_Amount"
-    ).reset_index(drop=True)
+    route_fares = route_fares[
+        route_fares["Fare_Amount"] >= 0
+    ]
+
+    if currency:
+        route_fares = route_fares.sort_values("Fare_Amount")
+    else:
+        route_fares = route_fares.sort_values(
+            ["Currency", "Fare_Amount"]
+        )
+
+    return route_fares.reset_index(drop=True)
 
 
 def find_cheapest_transport(
@@ -107,6 +133,10 @@ def find_cheapest_transport(
     if options.empty:
         return pd.DataFrame()
 
+    # Different currencies cannot be compared directly.
+    if currency is None and options["Currency"].nunique() > 1:
+        return pd.DataFrame()
+
     return options.head(1)
 
 
@@ -121,15 +151,14 @@ def estimate_transport_fare(
     rate_per_km = float(rate_per_km)
     base_fare = float(base_fare)
 
-    currency = str(currency).strip().upper()
+    currency = validate_currency(currency)
 
     if distance_km < 0 or rate_per_km < 0 or base_fare < 0:
         raise ValueError("Fare inputs cannot be negative")
 
-    if len(currency) != 3 or not currency.isalpha():
-        raise ValueError("Enter a valid three-letter currency code")
-
-    estimated_fare = base_fare + (distance_km * rate_per_km)
+    estimated_fare = base_fare + (
+        distance_km * rate_per_km
+    )
 
     return {
         "Distance_KM": round(distance_km, 2),
