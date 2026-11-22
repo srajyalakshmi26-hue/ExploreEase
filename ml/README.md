@@ -1,4 +1,4 @@
-# ExploreEase – Member 3: Dataset and AI/ML Module
+# ExploreEase –  Dataset and AI/ML Module
 
 ## 1. Overview
 This module provides dataset collection, preprocessing, AI-based recommendations, review sentiment analysis, cost analysis, and budget trip planning for ExploreEase.
