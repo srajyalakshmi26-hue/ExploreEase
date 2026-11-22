@@ -1,1 +1,1 @@
-City,Starting_Point,Destination,Transport_Type,Fare_Amount,Distance_KM,Submitted_Date,Verification_Status,Source
+City,Starting_Point,Destination,Transport_Type,Fare_Amount,Distance_KM,Submitted_Date,Verification_Status,Source,Country,Currency,Starting_Latitude,Starting_Longitude,Destination_Latitude,Destination_Longitude,Last_Updated

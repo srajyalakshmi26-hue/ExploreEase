@@ -6,10 +6,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 FARE_PATH = os.path.join(
-    BASE_DIR,
-    "data",
-    "raw",
-    "transport_fares.csv"
+    BASE_DIR, "data", "raw", "transport_fares.csv"
 )
 
 
@@ -21,7 +18,13 @@ def load_fare_data():
     return pd.read_csv(FARE_PATH)
 
 
-def find_transport_options(city, starting_point, destination):
+def find_transport_options(
+    city,
+    starting_point,
+    destination,
+    country=None,
+    currency=None
+):
 
     fares_df = load_fare_data()
 
@@ -60,26 +63,45 @@ def find_transport_options(city, starting_point, destination):
         & (fares_df["Destination"] == destination)
     ].copy()
 
+    if country and "Country" in route_fares.columns:
+        route_fares = route_fares[
+            route_fares["Country"].astype(str).str.strip().str.lower()
+            == country.strip().lower()
+        ]
+
+    if currency and "Currency" in route_fares.columns:
+        route_fares = route_fares[
+            route_fares["Currency"].astype(str).str.strip().str.upper()
+            == currency.strip().upper()
+        ]
+
     route_fares["Fare_Amount"] = pd.to_numeric(
         route_fares["Fare_Amount"],
         errors="coerce"
     )
 
     route_fares = route_fares.dropna(subset=["Fare_Amount"])
-
-    route_fares = route_fares[
-        route_fares["Fare_Amount"] >= 0
-    ]
+    route_fares = route_fares[route_fares["Fare_Amount"] >= 0]
 
     return route_fares.sort_values(
         "Fare_Amount"
     ).reset_index(drop=True)
 
 
-def find_cheapest_transport(city, starting_point, destination):
+def find_cheapest_transport(
+    city,
+    starting_point,
+    destination,
+    country=None,
+    currency=None
+):
 
     options = find_transport_options(
-        city, starting_point, destination
+        city,
+        starting_point,
+        destination,
+        country,
+        currency
     )
 
     if options.empty:
@@ -88,16 +110,30 @@ def find_cheapest_transport(city, starting_point, destination):
     return options.head(1)
 
 
-def estimate_transport_fare(distance_km, rate_per_km, base_fare=0):
+def estimate_transport_fare(
+    distance_km,
+    rate_per_km,
+    base_fare=0,
+    currency="INR"
+):
+
+    distance_km = float(distance_km)
+    rate_per_km = float(rate_per_km)
+    base_fare = float(base_fare)
+
+    currency = str(currency).strip().upper()
 
     if distance_km < 0 or rate_per_km < 0 or base_fare < 0:
         raise ValueError("Fare inputs cannot be negative")
+
+    if len(currency) != 3 or not currency.isalpha():
+        raise ValueError("Enter a valid three-letter currency code")
 
     estimated_fare = base_fare + (distance_km * rate_per_km)
 
     return {
         "Distance_KM": round(distance_km, 2),
         "Estimated_Fare": round(estimated_fare, 2),
-        "Currency": "INR",
+        "Currency": currency,
         "Fare_Status": "Estimated - Not Verified"
     }

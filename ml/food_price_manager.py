@@ -1,6 +1,7 @@
 
 import pandas as pd
 import os
+import re
 from urllib.parse import urlparse
 from datetime import date
 
@@ -15,17 +16,19 @@ FOOD_PATH = os.path.join(
     BASE_DIR, "data", "raw", "local_food.csv"
 )
 
+
 SUBMISSION_COLUMNS = [
     "City", "Food_Name", "Restaurant_Name", "Restaurant_ID",
     "Submitted_Price", "Currency", "Portion_Size", "Source",
     "Source_URL", "Submitted_Date", "Verification_Status",
-    "Verification_Notes"
+    "Verification_Notes", "Country", "Latitude", "Longitude"
 ]
 
 FOOD_COLUMNS = [
     "City", "Food_Name", "Description", "Approx_Price",
     "Currency", "Restaurant_Name", "Restaurant_ID",
-    "Source", "Last_Updated", "Verification_Status"
+    "Source", "Last_Updated", "Verification_Status",
+    "Country", "Latitude", "Longitude"
 ]
 
 
@@ -41,6 +44,36 @@ def load_data(file_path, columns):
             data[column] = ""
 
     return data[columns]
+
+
+def validate_currency(currency):
+
+    currency = str(currency).strip().upper()
+
+    if not re.fullmatch(r"[A-Z]{3}", currency):
+        raise ValueError("Enter a valid three-letter currency code")
+
+    return currency
+
+
+def validate_location(latitude=None, longitude=None):
+
+    if latitude is None and longitude is None:
+        return None, None
+
+    if latitude is None or longitude is None:
+        raise ValueError("Both latitude and longitude are required")
+
+    latitude = float(latitude)
+    longitude = float(longitude)
+
+    if not -90 <= latitude <= 90:
+        raise ValueError("Invalid latitude")
+
+    if not -180 <= longitude <= 180:
+        raise ValueError("Invalid longitude")
+
+    return latitude, longitude
 
 
 def validate_price_source(source, source_url, evidence_checked):
@@ -67,14 +100,19 @@ def add_authorized_food_price(
     price,
     source,
     source_url,
-    evidence_checked=False
+    evidence_checked=False,
+    currency="INR",
+    country="",
+    latitude=None,
+    longitude=None
 ):
 
-    validate_price_source(
-        source, source_url, evidence_checked
-    )
+    validate_price_source(source, source_url, evidence_checked)
 
     price = float(price)
+    currency = validate_currency(currency)
+
+    latitude, longitude = validate_location(latitude, longitude)
 
     if price <= 0:
         raise ValueError("Price must be greater than zero")
@@ -91,6 +129,7 @@ def add_authorized_food_price(
         (foods["City"].astype(str).str.lower() == city.strip().lower())
         & (foods["Food_Name"].astype(str).str.lower() == food_name.strip().lower())
         & (foods["Restaurant_ID"].astype(str) == str(restaurant_id))
+        & (foods["Currency"].astype(str).str.upper() == currency)
         & (pd.to_numeric(foods["Approx_Price"], errors="coerce") == price)
         & (foods["Verification_Status"].astype(str).str.lower() == "verified")
     ]
@@ -103,12 +142,15 @@ def add_authorized_food_price(
         "Food_Name": food_name.strip(),
         "Description": "",
         "Approx_Price": price,
-        "Currency": "INR",
+        "Currency": currency,
         "Restaurant_Name": restaurant_name.strip(),
         "Restaurant_ID": restaurant_id,
         "Source": f"{source.strip()} | {source_url.strip()}",
         "Last_Updated": date.today().isoformat(),
-        "Verification_Status": "Verified"
+        "Verification_Status": "Verified",
+        "Country": country.strip(),
+        "Latitude": latitude,
+        "Longitude": longitude
     }
 
     foods = pd.concat(
@@ -130,10 +172,16 @@ def submit_food_price(
     currency="INR",
     portion_size="",
     source="",
-    source_url=""
+    source_url="",
+    country="",
+    latitude=None,
+    longitude=None
 ):
 
     price = float(price)
+    currency = validate_currency(currency)
+
+    latitude, longitude = validate_location(latitude, longitude)
 
     if price <= 0:
         raise ValueError("Price must be greater than zero")
@@ -144,11 +192,9 @@ def submit_food_price(
     if not restaurant_name.strip():
         raise ValueError("Restaurant name is required")
 
-    if currency.strip().upper() != "INR":
-        raise ValueError("Only INR prices are currently supported")
-
     submissions = load_data(
-        SUBMISSION_PATH, SUBMISSION_COLUMNS
+        SUBMISSION_PATH,
+        SUBMISSION_COLUMNS
     )
 
     new_submission = {
@@ -157,13 +203,16 @@ def submit_food_price(
         "Restaurant_Name": restaurant_name.strip(),
         "Restaurant_ID": restaurant_id,
         "Submitted_Price": price,
-        "Currency": "INR",
+        "Currency": currency,
         "Portion_Size": portion_size,
         "Source": source,
         "Source_URL": source_url,
         "Submitted_Date": date.today().isoformat(),
         "Verification_Status": "Pending",
-        "Verification_Notes": ""
+        "Verification_Notes": "",
+        "Country": country.strip(),
+        "Latitude": latitude,
+        "Longitude": longitude
     }
 
     submissions = pd.concat(
@@ -191,7 +240,8 @@ def verify_food_price(
     )
 
     submissions = load_data(
-        SUBMISSION_PATH, SUBMISSION_COLUMNS
+        SUBMISSION_PATH,
+        SUBMISSION_COLUMNS
     )
 
     if submission_index not in submissions.index:
@@ -224,7 +274,10 @@ def verify_food_price(
         "Restaurant_ID": submission["Restaurant_ID"],
         "Source": f"{verification_source.strip()} | {verification_url.strip()}",
         "Last_Updated": date.today().isoformat(),
-        "Verification_Status": "Verified"
+        "Verification_Status": "Verified",
+        "Country": submission["Country"],
+        "Latitude": submission["Latitude"],
+        "Longitude": submission["Longitude"]
     }
 
     foods = pd.concat(
@@ -240,7 +293,7 @@ def verify_food_price(
 
     submissions.loc[
         submission_index, "Verification_Notes"
-    ] = "Published price manually checked"
+    ] = "Price manually checked against authorized source"
 
     submissions.to_csv(SUBMISSION_PATH, index=False)
 

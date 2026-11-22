@@ -32,17 +32,29 @@ def load_csv(filename):
     return pd.read_csv(file_path)
 
 
+def validate_currency(currency):
+
+    currency = str(currency).strip().upper()
+
+    if len(currency) != 3 or not currency.isalpha():
+        raise ValueError("Enter a valid three-letter currency code")
+
+    return currency
+
+
 # ----------------------------------
 # PLACE ENTRY FEE ANALYSIS
 # ----------------------------------
 
-def get_place_costs(places):
+def get_place_costs(places, country=None, currency=None):
 
     places = places.copy()
     costs = load_csv("place_costs.csv")
 
+    places["Entry_Fee"] = None
+    places["Entry_Fee_Currency"] = None
+
     if costs.empty:
-        places["Entry_Fee"] = None
         return places
 
     required_columns = [
@@ -51,8 +63,13 @@ def get_place_costs(places):
     ]
 
     if not all(column in costs.columns for column in required_columns):
-        places["Entry_Fee"] = None
         return places
+
+    if "Country" not in costs.columns:
+        costs["Country"] = ""
+
+    if "Currency" not in costs.columns:
+        costs["Currency"] = ""
 
     costs = costs[
         costs["Verification_Status"]
@@ -66,18 +83,50 @@ def get_place_costs(places):
     costs = costs.dropna(subset=["Entry_Fee"])
     costs = costs[costs["Entry_Fee"] >= 0]
 
-    costs = costs.drop_duplicates(
-        subset=["City", "Place_Name"]
-    )
+    if country:
+        costs = costs[
+            costs["Country"].astype(str).str.strip().str.lower()
+            == country.strip().lower()
+        ]
 
-    places = places.drop(
-        columns=["Entry_Fee"], errors="ignore"
-    )
+    if currency:
+        currency = validate_currency(currency)
+
+        costs = costs[
+            costs["Currency"].astype(str).str.strip().str.upper()
+            == currency
+        ]
+
+    merge_columns = ["City", "Place_Name"]
+
+    if "Country" in places.columns:
+        merge_columns.append("Country")
+
+    for column in merge_columns:
+        places[column] = places[column].astype(str).str.strip()
+        costs[column] = costs[column].astype(str).str.strip()
+
+    costs = costs.drop_duplicates()
+
+    # Do not choose an arbitrary fee when multiple currencies
+    # or country records match the same place.
+    costs["_Match_Count"] = costs.groupby(
+        merge_columns
+    )["Place_Name"].transform("size")
+
+    costs = costs[costs["_Match_Count"] == 1].copy()
+
+    costs = costs.drop(columns=["_Match_Count"])
 
     return places.merge(
-        costs[["City", "Place_Name", "Entry_Fee"]],
-        on=["City", "Place_Name"],
-        how="left"
+        costs[
+            merge_columns + ["Entry_Fee", "Currency"]
+        ].rename(
+            columns={"Currency": "Entry_Fee_Currency"}
+        ),
+        on=merge_columns,
+        how="left",
+        suffixes=("", "_cost")
     )
 
 
@@ -85,7 +134,12 @@ def get_place_costs(places):
 # VERIFIED LOCAL FOOD RECOMMENDATIONS
 # ----------------------------------
 
-def recommend_local_food(city, restaurant_id=None):
+def recommend_local_food(
+    city,
+    restaurant_id=None,
+    country=None,
+    currency=None
+):
 
     food = load_csv("local_food.csv")
 
@@ -101,10 +155,27 @@ def recommend_local_food(city, restaurant_id=None):
     if not all(column in food.columns for column in required_columns):
         return pd.DataFrame()
 
+    if "Country" not in food.columns:
+        food["Country"] = ""
+
     city_food = food[
         food["City"].astype(str).str.strip().str.lower()
         == city.strip().lower()
     ].copy()
+
+    if country:
+        city_food = city_food[
+            city_food["Country"].astype(str).str.strip().str.lower()
+            == country.strip().lower()
+        ]
+
+    if currency:
+        currency = validate_currency(currency)
+
+        city_food = city_food[
+            city_food["Currency"].astype(str).str.strip().str.upper()
+            == currency
+        ]
 
     city_food["Approx_Price"] = pd.to_numeric(
         city_food["Approx_Price"], errors="coerce"
@@ -134,9 +205,20 @@ def recommend_local_food(city, restaurant_id=None):
 # FOOD COST
 # ----------------------------------
 
-def get_food_cost(city, food_name, restaurant_id=None):
+def get_food_cost(
+    city,
+    food_name,
+    restaurant_id=None,
+    country=None,
+    currency=None
+):
 
-    food = recommend_local_food(city, restaurant_id)
+    food = recommend_local_food(
+        city,
+        restaurant_id,
+        country,
+        currency
+    )
 
     if food.empty:
         return None
@@ -156,10 +238,20 @@ def get_food_cost(city, food_name, restaurant_id=None):
 # VERIFIED TRANSPORT FARE
 # ----------------------------------
 
-def get_transport_cost(city, starting_point, destination):
+def get_transport_cost(
+    city,
+    starting_point,
+    destination,
+    country=None,
+    currency=None
+):
 
     options = find_cheapest_transport(
-        city, starting_point, destination
+        city,
+        starting_point,
+        destination,
+        country,
+        currency
     )
 
     if options.empty:
@@ -175,13 +267,15 @@ def get_transport_cost(city, starting_point, destination):
 def get_transport_estimate(
     distance_km,
     rate_per_km,
-    base_fare=0
+    base_fare=0,
+    currency="INR"
 ):
 
     return estimate_transport_fare(
         distance_km,
         rate_per_km,
-        base_fare
+        base_fare,
+        currency
     )
 
 
@@ -194,8 +288,14 @@ def calculate_trip_cost(
     transport_fare,
     food_cost,
     budget,
-    transport_fare_status="Verified"
+    transport_fare_status="Verified",
+    entry_fee_currency=None,
+    transport_fare_currency=None,
+    food_cost_currency=None,
+    budget_currency=None
 ):
+
+    budget = float(budget)
 
     if budget < 0:
         raise ValueError("Budget cannot be negative")
@@ -206,12 +306,21 @@ def calculate_trip_cost(
         "Food_Cost": food_cost
     }
 
+    currencies = {
+        "Entry_Fee": entry_fee_currency,
+        "Transport_Fare": transport_fare_currency,
+        "Food_Cost": food_cost_currency
+    }
+
     missing_costs = []
 
     for name, value in costs.items():
 
-        if value is None or pd.isna(value) or value < 0:
+        if value is None or pd.isna(value):
             missing_costs.append(name)
+
+        elif float(value) < 0:
+            raise ValueError(name + " cannot be negative")
 
     if missing_costs:
 
@@ -219,11 +328,48 @@ def calculate_trip_cost(
             "Status": "Insufficient cost information",
             "Total_Cost": None,
             "Remaining_Budget": None,
+            "Currency": budget_currency,
             "Missing_Costs": missing_costs,
             "Transport_Fare_Status": transport_fare_status
         }
 
-    total_cost = sum(costs.values())
+    if budget_currency is None or any(
+        currency is None for currency in currencies.values()
+    ):
+
+        return {
+            "Status": "Currency information required",
+            "Total_Cost": None,
+            "Remaining_Budget": None,
+            "Missing_Costs": [],
+            "Transport_Fare_Status": transport_fare_status
+        }
+
+    budget_currency = validate_currency(budget_currency)
+
+    currencies = {
+        name: validate_currency(currency)
+        for name, currency in currencies.items()
+    }
+
+    if any(
+        currency != budget_currency
+        for currency in currencies.values()
+    ):
+
+        return {
+            "Status": "Currency mismatch - conversion required",
+            "Total_Cost": None,
+            "Remaining_Budget": None,
+            "Currency": budget_currency,
+            "Missing_Costs": [],
+            "Transport_Fare_Status": transport_fare_status
+        }
+
+    total_cost = sum(
+        float(value) for value in costs.values()
+    )
+
     remaining_budget = budget - total_cost
 
     is_estimated = (
@@ -248,6 +394,7 @@ def calculate_trip_cost(
         "Status": status,
         "Total_Cost": round(total_cost, 2),
         "Remaining_Budget": round(remaining_budget, 2),
+        "Currency": budget_currency,
         "Missing_Costs": [],
         "Transport_Fare_Status": transport_fare_status,
         "Cost_Details": costs
@@ -264,11 +411,16 @@ def create_budget_trip(
     user_lon,
     budget,
     max_distance,
-    live_data=None
+    live_data=None,
+    country=None,
+    currency=None
 ):
 
     if budget < 0 or max_distance < 0:
         raise ValueError("Budget and distance cannot be negative")
+
+    if currency:
+        currency = validate_currency(currency)
 
     if live_data is None:
         live_data = collect_and_process_city_data(city)
@@ -310,7 +462,6 @@ def create_budget_trip(
     if city_places.empty:
         return pd.DataFrame(), pd.DataFrame()
 
-    # Distance from starting location
     city_places["Distance_KM"] = calculate_distance(
         user_lat,
         user_lon,
@@ -318,7 +469,6 @@ def create_budget_trip(
         city_places["Longitude"]
     )
 
-    # Filter places inside requested radius
     city_places = city_places[
         city_places["Distance_KM"] <= max_distance
     ].copy()
@@ -326,8 +476,11 @@ def create_budget_trip(
     if city_places.empty:
         return pd.DataFrame(), pd.DataFrame()
 
-    # Attach verified entry fees
-    city_places = get_place_costs(city_places)
+    city_places = get_place_costs(
+        city_places,
+        country=country,
+        currency=currency
+    )
 
     city_places["Entry_Fee_Status"] = city_places[
         "Entry_Fee"
@@ -337,13 +490,36 @@ def create_budget_trip(
         else "Not available"
     )
 
-    # Separate places with unknown entry fees
+    # Identify the currency of available verified entry fees.
+    available_currencies = (
+        city_places["Entry_Fee_Currency"]
+        .dropna()
+        .astype(str)
+        .str.strip()
+        .str.upper()
+    )
+
+    available_currencies = [
+        value for value in available_currencies if value
+    ]
+
+    if currency is None and len(set(available_currencies)) > 1:
+
+        city_places["Entry_Fee_Status"] = (
+            "Currency selection required"
+        )
+
+        return pd.DataFrame(), city_places.reset_index(drop=True)
+
+    if currency is None and available_currencies:
+        currency = available_currencies[0]
+
     verified_places = city_places[
         city_places["Entry_Fee_Status"] == "Verified"
     ].copy()
 
     unavailable_places = city_places[
-        city_places["Entry_Fee_Status"] == "Not available"
+        city_places["Entry_Fee_Status"] != "Verified"
     ].copy()
 
     remaining_budget = float(budget)
@@ -396,6 +572,8 @@ def create_budget_trip(
             remaining_budget, 2
         )
 
+        selected_place["Budget_Currency"] = currency
+
         selected_places.append(selected_place)
 
         current_lat = float(selected_place["Latitude"])
@@ -421,11 +599,11 @@ def create_budget_trip(
                 "Distance_From_Previous_KM",
                 "Trip_Stop",
                 "Cumulative_Travel_Distance_KM",
-                "Remaining_Budget"
+                "Remaining_Budget",
+                "Budget_Currency"
             ]
         )
 
     unavailable_places = unavailable_places.reset_index(drop=True)
 
     return selected_places, unavailable_places
-
