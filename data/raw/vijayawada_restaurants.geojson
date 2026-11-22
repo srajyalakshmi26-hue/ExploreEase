@@ -1,0 +1,6482 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-21T16:48:27Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/342928286",
+      "properties": {
+        "@id": "way/342928286",
+        "addr:city": "Vijayawada",
+        "addr:district": "Krishna",
+        "addr:housenumber": "FORTUNE MURALI RARK",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:levels": "7",
+        "check_date": "2025-07-11",
+        "cuisine": "regional",
+        "name": "Furtune Murali Park",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6459344,
+          16.5012825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/342934426",
+      "properties": {
+        "@id": "way/342934426",
+        "addr:housename": "sweet magic",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Sweet Magic",
+        "roof:levels": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.648444,
+          16.4996083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/342986338",
+      "properties": {
+        "@id": "way/342986338",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-12-19",
+        "name": "SSS Idly",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6529411,
+          16.5018962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343146991",
+      "properties": {
+        "@id": "way/343146991",
+        "addr:city": "VIJAYAWADA",
+        "addr:district": "NTR",
+        "addr:housenumber": "32-9-18/2, Siddhartha College Rd, near Madhu Chowk, Mogalrajapuram, Christurajupuram, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "AS Rama Rao Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "diet:non-vegetarian": "yes",
+        "name": "Cross Roads Restaurant",
+        "phone": "07337372222",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433402,
+          16.5076278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343199665",
+      "properties": {
+        "@id": "way/343199665",
+        "addr:city": "Vijayawada",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Bawarchi",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.656479,
+          16.5008254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/400361067",
+      "properties": {
+        "@id": "way/400361067",
+        "addr:housenumber": "zaara",
+        "addr:street": "Singhnagar Flyover",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:material": "brick",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6365733,
+          16.5373052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/400361068",
+      "properties": {
+        "@id": "way/400361068",
+        "amenity": "fast_food",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6366451,
+          16.5375124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/401328846",
+      "properties": {
+        "@id": "way/401328846",
+        "addr:city": "vijayawada",
+        "addr:district": "NTR district",
+        "addr:housenumber": "RR joints",
+        "addr:postcode": "520003",
+        "addr:street": "Budameru vantena",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "diet:chicken": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "rr joints",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.638254,
+          16.5298276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403022851",
+      "properties": {
+        "@id": "way/403022851",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "54-15-7/A",
+        "addr:postcode": "520008",
+        "addr:street": "Srinivasa Nagar Colony",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "20",
+        "check_date": "2025-07-11",
+        "cuisine": "regional",
+        "delivery": "no",
+        "name": "Flavours Sweets and Bakery",
+        "opening_hours": "9:00-22:00",
+        "phone": "+9180997 22653",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.668339,
+          16.5127035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403039068",
+      "properties": {
+        "@id": "way/403039068",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "meghana hotel",
+        "addr:postcode": "520008",
+        "addr:street": "Srinivasa Nagar",
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "brick",
+        "capacity": "20",
+        "cuisine": "regional",
+        "name": "Meghana Family Restaurent",
+        "smoking": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6702007,
+          16.5149151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403044192",
+      "properties": {
+        "@id": "way/403044192",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "48-10-15/1",
+        "addr:postcode": "520007",
+        "addr:street": "Sri Ramachandra Nagar",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-02-21",
+        "cuisine": "Indian,_Chinese",
+        "delivery": "no",
+        "name": "Kura Karam",
+        "opening_hours": "11:00-23:00",
+        "phone": "+91866 254 3389",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "tamarindrestaurant.in",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6707015,
+          16.5153375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403045004",
+      "properties": {
+        "@id": "way/403045004",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "54-15-11B",
+        "addr:postcode": "520008",
+        "addr:street": "Bharathi Nagar",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "The Chocolate Room",
+        "opening_hours": "9:00-23:00",
+        "phone": "+91866 655 6655",
+        "smoking": "no",
+        "website": "https://www.thechocolateroomindia.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6663698,
+          16.5103759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403249056",
+      "properties": {
+        "@id": "way/403249056",
+        "addr:city": "Vijayawada",
+        "addr:district": "ntr",
+        "addr:housenumber": "59A-8-18",
+        "addr:postcode": "520008",
+        "addr:street": "1, Fun Time Club Road, 59A-8-18, New, RTC Colony, Vijayawada, Andhra Pradesh 520008",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop;burger;pizza;regional;american",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "brioche the bake house vijayawada",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "7407778899; +91 74077 78899",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6638279,
+          16.4999613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/407529538",
+      "properties": {
+        "@id": "way/407529538",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520008",
+        "addr:street": "Sri Ramachandra Nagar",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "20",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "name": "Attarillu Restaurent",
+        "opening_hours": "11:00-23:00",
+        "phone": "+91866 254 7717",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6702833,
+          16.515033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/413928382",
+      "properties": {
+        "@id": "way/413928382",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "Raghavendra Theatre Rd",
+        "addr:postcode": "520003",
+        "addr:street": "Ayodhya Nagar",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "bakery;flavored_milk;dessert",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Vijaya Sri Bakery and Sweets",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+91 9666555350",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6275744,
+          16.5181264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/414062426",
+      "properties": {
+        "@id": "way/414062426",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "name": "Takeout kitchen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6384759,
+          16.5228583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/414086147",
+      "properties": {
+        "@id": "way/414086147",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "cuisine": "indian",
+        "name": "Sai Ganesh Food Junctiono",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6379568,
+          16.5213431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/414086166",
+      "properties": {
+        "@id": "way/414086166",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "name": "Falooda and Ice creams",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6377156,
+          16.5213271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/415798752",
+      "properties": {
+        "@id": "way/415798752",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "Siva complex, 59A-20, 3/2A",
+        "addr:postcode": "520008",
+        "addr:street": "Guru Nanak Colony Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "0",
+        "check_date": "2025-07-11",
+        "cuisine": "chicken;chinese;indian;regional",
+        "name": "Sri Anjaneya Restaurants",
+        "opening_hours": "Mo-Su 11:00-23:30",
+        "phone": "+918688488888",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6654444,
+          16.5034078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/416069573",
+      "properties": {
+        "@id": "way/416069573",
+        "addr:city": "VIJAYAWADA",
+        "addr:district": "NTR",
+        "addr:housenumber": "GJ5Q+Q43, Moghalrajpuram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "addr:postcode": "520010",
+        "addr:street": "Prakasam Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "PUSHPA HOTEL, VIJAYAWADA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6377837,
+          16.5093575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832677897",
+      "properties": {
+        "@id": "way/832677897",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Idly place",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6536399,
+          16.5076962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1133438826",
+      "properties": {
+        "@id": "way/1133438826",
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "SPAV Mess",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6563012,
+          16.5050319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1436667817",
+      "properties": {
+        "@id": "way/1436667817",
+        "amenity": "restaurant",
+        "building": "yes",
+        "layer": "-1",
+        "name": "Pahi's Savour Spice Restaurant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5972262,
+          16.5321718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2460048665",
+      "properties": {
+        "@id": "node/2460048665",
+        "amenity": "fast_food",
+        "name": "Fast Food Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6202507,
+          16.5194196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2600868585",
+      "properties": {
+        "@id": "node/2600868585",
+        "addr:city": "vijayawada",
+        "addr:postcode": "520002",
+        "amenity": "restaurant",
+        "name": "Raj Towers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6280112,
+          16.5135337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243965525",
+      "properties": {
+        "@id": "node/3243965525",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Hotel Kohinoor Biryani Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6365768,
+          16.5373394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243965526",
+      "properties": {
+        "@id": "node/3243965526",
+        "amenity": "cafe",
+        "diet:vegetarian": "yes",
+        "name": "Raghavendra Hotel & Tiffins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6371481,
+          16.5376479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243965527",
+      "properties": {
+        "@id": "node/3243965527",
+        "amenity": "cafe",
+        "name": "Sri Venkata Ramana Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6368048,
+          16.5375811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243965529",
+      "properties": {
+        "@id": "node/3243965529",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Sreenu Tea and Fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6366385,
+          16.5374988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4066539816",
+      "properties": {
+        "@id": "node/4066539816",
+        "amenity": "restaurant",
+        "name": "K Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6684515,
+          16.5159323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446645573",
+      "properties": {
+        "@id": "node/4446645573",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "40-1-29",
+        "addr:postcode": "520010",
+        "addr:street": "Mahatma Gandhi Rd, Sidhartha Nagar, Labbipet",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Rasoie",
+        "opening_hours": "12:00-15:30, 19:00-22:30",
+        "phone": "+91 866 666 8585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6461647,
+          16.5011762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446653455",
+      "properties": {
+        "@id": "node/4446653455",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "40-7-9",
+        "addr:postcode": "520010",
+        "addr:street": "mogalrajapuram road, Jammi Chettu St, Sidhartha Nagar, Labbipet",
+        "amenity": "restaurant",
+        "name": "RR Durbar",
+        "opening_hours": "11:00-23:00",
+        "phone": "+91 8712 11 00 11",
+        "website": "https://www.rrdurbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444278,
+          16.5054916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446656966",
+      "properties": {
+        "@id": "node/4446656966",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520002",
+        "addr:street": "Prakasam Road, Governorpet",
+        "amenity": "restaurant",
+        "name": "Cross Roads Restaurant",
+        "name:te": "క్రాస్ రోడ్స్ రెస్టారంట్",
+        "opening_hours": "11:00-22:30",
+        "phone": "+91 866 257 2424"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6263574,
+          16.5117596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446676580",
+      "properties": {
+        "@id": "node/4446676580",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "36-11-7/A",
+        "addr:postcode": "520010",
+        "addr:street": "Shanti Nagar 1st Line, Jammi Chettu Center, Mughal Raj Puram",
+        "amenity": "restaurant",
+        "name": "TFL",
+        "opening_hours": "10:00-23:00",
+        "phone": "+91 866 248 4969",
+        "website": "https://www.thefoodlounge.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433307,
+          16.5050941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446680042",
+      "properties": {
+        "@id": "node/4446680042",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "13-801",
+        "addr:postcode": "520001",
+        "addr:street": "Seethangara Other End Of Prakasam Barage, Tadepalli(Mandal)",
+        "amenity": "restaurant",
+        "check_date": "2024-02-25",
+        "name": "Lotus The Food City",
+        "opening_hours": "11:00-23:30",
+        "phone": "+91 99663 05554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6478161,
+          16.5062287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446684665",
+      "properties": {
+        "@id": "node/4446684665",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520010",
+        "addr:street": "Guru Nanak Colony Road, State Bank Colony, Benz Circle",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Southern Spice",
+        "opening_hours": "11:00-22:00",
+        "phone": "+91 9885033344",
+        "website": "https://www.southernspice.co.in/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6466932,
+          16.5031158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4446694613",
+      "properties": {
+        "@id": "node/4446694613",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "49-1-67",
+        "addr:postcode": "520003",
+        "addr:street": "Nageswara Rao Pantulu Rd, Gandhi Nagar",
+        "amenity": "restaurant",
+        "name": "Babai Hotel",
+        "opening_hours": "06:30-13:30, 06:00-23:00",
+        "phone": "+91 9441244848",
+        "website": "www.rajadhanicartravels.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6254176,
+          16.5173354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5030674641",
+      "properties": {
+        "@id": "node/5030674641",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520008",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:pa": "ਮੈਕਡੋਨਲਡ’ਜ਼",
+        "brand:ur": "مکڈونلڈز",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "brand:wikipedia:pa": "ਮੈਕਡੋਨਲਡ’ਜ਼",
+        "brand:wikipedia:ur": "مکڈونلڈز",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "name:pa": "ਮੈਕਡੋਨਲਡ’ਜ਼",
+        "name:ur": "مکڈونلڈز",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6617321,
+          16.5047103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5640852821",
+      "properties": {
+        "@id": "node/5640852821",
+        "addr:street": "Raagam mastan rao Road",
+        "amenity": "restaurant",
+        "name": "Saiteja Tiffin centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6488353,
+          16.5265467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6147077586",
+      "properties": {
+        "@id": "node/6147077586",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Mittai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6570038,
+          16.4982781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6202684385",
+      "properties": {
+        "@id": "node/6202684385",
+        "amenity": "restaurant",
+        "name": "Babai Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6265381,
+          16.5171916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6207604688",
+      "properties": {
+        "@id": "node/6207604688",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Shridi Sai Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6661966,
+          16.4924185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6207604690",
+      "properties": {
+        "@id": "node/6207604690",
+        "amenity": "cafe",
+        "name": "Sai Good Morning Tea & Snacks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6527397,
+          16.496471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6207645485",
+      "properties": {
+        "@id": "node/6207645485",
+        "amenity": "cafe",
+        "name": "Limra Tea Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5938531,
+          16.5261812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7829657983",
+      "properties": {
+        "@id": "node/7829657983",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6654253,
+          16.5034072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7829657984",
+      "properties": {
+        "@id": "node/7829657984",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Silver Spoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.665058,
+          16.5035566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8386483966",
+      "properties": {
+        "@id": "node/8386483966",
+        "amenity": "restaurant",
+        "name": "John tiffin center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6469306,
+          16.5270211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8708990447",
+      "properties": {
+        "@id": "node/8708990447",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "Raghavendra Theatre Rd",
+        "addr:postcode": "520003",
+        "addr:street": "Ayodhya Nagar",
+        "amenity": "restaurant",
+        "cuisine": "bakery;dessert;ice_cream",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "VIjaya Sri Bakery and Sweets",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6275021,
+          16.5180834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9515609001",
+      "properties": {
+        "@id": "node/9515609001",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "D.No 59-11-7/1, Beside Bakers Inn VSN Mall",
+        "addr:postcode": "520008",
+        "addr:street": "opp. to Kushal’s Jewellery, Gayatri Nagar, Benz Circle",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "capacity": "59",
+        "cuisine": "ice_cream;italian;chinese;burger;regional",
+        "delivery": "yes",
+        "description": "Best Place in Vijayawada to enjoy a couple of hours with Food in PRISA",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "prisacafe",
+        "name": "PRISA Cafe",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+91 83747 60444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6564945,
+          16.5013521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10105868986",
+      "properties": {
+        "@id": "node/10105868986",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2025-07-11",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6471463,
+          16.5040951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10105879460",
+      "properties": {
+        "@id": "node/10105879460",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Velvet Crust",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6565591,
+          16.4967191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10105879462",
+      "properties": {
+        "@id": "node/10105879462",
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Seven days"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6558128,
+          16.4974467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10841388788",
+      "properties": {
+        "@id": "node/10841388788",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "Ground Floor, 54, 16 /29",
+        "addr:postcode": "520008",
+        "addr:street": "opp. to Loyola College Road, Venkateswara Nagar, Sri Venkateshwara Colony, Veterinary Colony,",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;pizza;bakery;regional;burger;indian;american",
+        "description": "Brewbakes Cafe & Restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Brewbakes Cafe & Restaurant",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+919291751111",
+        "source": "survey;local knowledge;aerial imagery;streetlevel imagery;gps;osm notes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6622621,
+          16.5088127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11124739780",
+      "properties": {
+        "@id": "node/11124739780",
+        "addr:street": "M.G Road",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger",
+        "description": "A café that serves thick shakes, mojitos, smoothies and fresh juice.",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lassi Shop",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.lassishop.in/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.657466,
+          16.4969109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11472898360",
+      "properties": {
+        "@id": "node/11472898360",
+        "amenity": "fast_food",
+        "check_date": "2024-06-19",
+        "name": "Sri Sai Ram Hot Chips"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6327285,
+          16.5144705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11571990788",
+      "properties": {
+        "@id": "node/11571990788",
+        "amenity": "fast_food",
+        "check_date": "2024-01-31",
+        "cuisine": "indian",
+        "name": "Manikanta Tiffin Center",
+        "name:te": "మణికంఠ టిఫిన్ సెంటర్",
+        "phone": "+91 99637 51483"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6460557,
+          16.5084855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11571990789",
+      "properties": {
+        "@id": "node/11571990789",
+        "amenity": "fast_food",
+        "check_date": "2024-01-31",
+        "cuisine": "indian",
+        "name": "Sri Rajeswari Tiffin Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6461707,
+          16.508437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11572978865",
+      "properties": {
+        "@id": "node/11572978865",
+        "amenity": "restaurant",
+        "check_date": "2024-01-31",
+        "name": "Sai Silver Biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6453962,
+          16.506499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11573018971",
+      "properties": {
+        "@id": "node/11573018971",
+        "amenity": "restaurant",
+        "check_date": "2024-01-31",
+        "name": "Under The Woods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6437606,
+          16.5073155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11573979325",
+      "properties": {
+        "@id": "node/11573979325",
+        "amenity": "restaurant",
+        "check_date": "2024-01-31",
+        "name": "Bejawada Bhawan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6271106,
+          16.5077029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11575620615",
+      "properties": {
+        "@id": "node/11575620615",
+        "amenity": "restaurant",
+        "check_date": "2024-02-01",
+        "name": "Kadiyapattanam  Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6443422,
+          16.505433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11575620619",
+      "properties": {
+        "@id": "node/11575620619",
+        "amenity": "fast_food",
+        "check_date": "2024-02-01",
+        "name": "KK Tiffins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6439597,
+          16.5044177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579479485",
+      "properties": {
+        "@id": "node/11579479485",
+        "amenity": "fast_food",
+        "check_date": "2024-02-02",
+        "cuisine": "juice",
+        "name": "Cool Frenz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6367394,
+          16.5042223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11581118988",
+      "properties": {
+        "@id": "node/11581118988",
+        "amenity": "restaurant",
+        "check_date": "2024-02-03",
+        "name": "Andhra Spice Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6439562,
+          16.5043324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11582038085",
+      "properties": {
+        "@id": "node/11582038085",
+        "amenity": "fast_food",
+        "check_date": "2024-02-03",
+        "name": "Manasa Tea & Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6421225,
+          16.5108213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11582038087",
+      "properties": {
+        "@id": "node/11582038087",
+        "amenity": "restaurant",
+        "check_date": "2024-02-03",
+        "name": "Madurai Vilas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6399481,
+          16.505909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144722",
+      "properties": {
+        "@id": "node/11583144722",
+        "amenity": "restaurant",
+        "check_date": "2024-02-04",
+        "name": "Arabian Mandi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6436716,
+          16.5035494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144723",
+      "properties": {
+        "@id": "node/11583144723",
+        "amenity": "restaurant",
+        "check_date": "2024-02-04",
+        "name": "Ragada Wale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433916,
+          16.5035043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144724",
+      "properties": {
+        "@id": "node/11583144724",
+        "amenity": "fast_food",
+        "check_date": "2024-02-04",
+        "name": "Sandwich Zone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6435957,
+          16.5034132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144729",
+      "properties": {
+        "@id": "node/11583144729",
+        "amenity": "fast_food",
+        "check_date": "2024-02-04",
+        "name": "Waffle Pops And Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6438935,
+          16.504266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144731",
+      "properties": {
+        "@id": "node/11583144731",
+        "amenity": "restaurant",
+        "check_date": "2024-02-04",
+        "name": "Wota Shawarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6434226,
+          16.5027545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144733",
+      "properties": {
+        "@id": "node/11583144733",
+        "amenity": "restaurant",
+        "check_date": "2024-02-04",
+        "name": "Fiesta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6432649,
+          16.5024534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583144734",
+      "properties": {
+        "@id": "node/11583144734",
+        "amenity": "cafe",
+        "check_date": "2024-02-04",
+        "name": "Minerva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6432922,
+          16.5025423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11583276206",
+      "properties": {
+        "@id": "node/11583276206",
+        "amenity": "cafe",
+        "check_date": "2024-02-04",
+        "name": "Goos Luck Tea Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6397522,
+          16.5027276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11584340892",
+      "properties": {
+        "@id": "node/11584340892",
+        "amenity": "food_court",
+        "name": "Eat Street Food Court"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6366331,
+          16.5052313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586072866",
+      "properties": {
+        "@id": "node/11586072866",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "name": "Ice Magic",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6579389,
+          16.4971071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586139373",
+      "properties": {
+        "@id": "node/11586139373",
+        "amenity": "restaurant",
+        "name": "Tuba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6457951,
+          16.500409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586155491",
+      "properties": {
+        "@id": "node/11586155491",
+        "amenity": "fast_food",
+        "name": "modern fastfood center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6243127,
+          16.5068443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586158745",
+      "properties": {
+        "@id": "node/11586158745",
+        "amenity": "restaurant",
+        "name": "Barbeque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6537796,
+          16.4985967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586159924",
+      "properties": {
+        "@id": "node/11586159924",
+        "amenity": "restaurant",
+        "name": "Sweet Magic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.648474,
+          16.4996159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11618920789",
+      "properties": {
+        "@id": "node/11618920789",
+        "amenity": "food_court",
+        "name": "Minerva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433912,
+          16.5024396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11618920790",
+      "properties": {
+        "@id": "node/11618920790",
+        "amenity": "food_court",
+        "name": "Food Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6486849,
+          16.5029691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11618920792",
+      "properties": {
+        "@id": "node/11618920792",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6480641,
+          16.5034261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11652965017",
+      "properties": {
+        "@id": "node/11652965017",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2025-07-10",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5972956,
+          16.5322414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11652965030",
+      "properties": {
+        "@id": "node/11652965030",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Casserole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5955706,
+          16.5281826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11652990813",
+      "properties": {
+        "@id": "node/11652990813",
+        "amenity": "restaurant",
+        "check_date": "2024-02-21",
+        "name": "Sweet Magic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6699968,
+          16.5146006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11653121060",
+      "properties": {
+        "@id": "node/11653121060",
+        "amenity": "fast_food",
+        "check_date": "2024-02-22",
+        "name": "Quality Food Corner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6420106,
+          16.507897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11658597273",
+      "properties": {
+        "@id": "node/11658597273",
+        "amenity": "fast_food",
+        "check_date": "2024-02-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6328834,
+          16.5051964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11662795774",
+      "properties": {
+        "@id": "node/11662795774",
+        "addr:postcode": "520010",
+        "amenity": "restaurant",
+        "check_date": "2024-02-25",
+        "name": "Nan king",
+        "name:en": "Nan King",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 73484 85858",
+        "reservation": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6464567,
+          16.5060058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11662795775",
+      "properties": {
+        "@id": "node/11662795775",
+        "addr:housenumber": "Shop No. 6, NVKR Towers, D.NO. 40-5-1-21, opposite Siddhartha Arts College, Moghalrajpuram, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "Siddartha College Road",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "cuisine": "juice",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Fresh Juice Shop Ice Cream and Snacks",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6480983,
+          16.5062085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11662823222",
+      "properties": {
+        "@id": "node/11662823222",
+        "amenity": "cafe",
+        "check_date": "2024-02-25",
+        "cuisine": "coffee_shop",
+        "name": "Ice Magic Cafe",
+        "outdoor_seating": "no",
+        "phone": "+91 79979 96441",
+        "smoking": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6470384,
+          16.5057597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11664626236",
+      "properties": {
+        "@id": "node/11664626236",
+        "amenity": "restaurant",
+        "check_date": "2024-02-25",
+        "name": "Sri Satya Sai Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6473821,
+          16.5057979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11671770860",
+      "properties": {
+        "@id": "node/11671770860",
+        "amenity": "restaurant",
+        "check_date": "2024-06-19",
+        "name": "Muzeeb Biryani Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6316533,
+          16.5143722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11697416883",
+      "properties": {
+        "@id": "node/11697416883",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "name": "Alfa Irani Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6392223,
+          16.5138088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11697416887",
+      "properties": {
+        "@id": "node/11697416887",
+        "amenity": "restaurant",
+        "check_date": "2024-06-19",
+        "name": "Food In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381994,
+          16.5190827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11697633205",
+      "properties": {
+        "@id": "node/11697633205",
+        "amenity": "fast_food",
+        "check_date": "2024-06-18",
+        "cuisine": "pizza",
+        "name": "Eagles Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.637905,
+          16.5213393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11697633207",
+      "properties": {
+        "@id": "node/11697633207",
+        "amenity": "fast_food",
+        "check_date": "2024-06-19",
+        "cuisine": "juice",
+        "name": "Mahalaxmi Juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6378335,
+          16.518953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11702982020",
+      "properties": {
+        "@id": "node/11702982020",
+        "amenity": "fast_food",
+        "check_date": "2024-03-06",
+        "cuisine": "juice",
+        "name": "Sugar Can Juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444166,
+          16.5057223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11974799396",
+      "properties": {
+        "@id": "node/11974799396",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444915,
+          16.5050636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11978891524",
+      "properties": {
+        "@id": "node/11978891524",
+        "amenity": "restaurant",
+        "check_date": "2024-06-18",
+        "name": "Falooda and Ice creams"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6377165,
+          16.5212835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11980463658",
+      "properties": {
+        "@id": "node/11980463658",
+        "amenity": "restaurant",
+        "check_date": "2024-06-18",
+        "name": "Panthulugari Idly Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6378875,
+          16.5226033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11980488208",
+      "properties": {
+        "@id": "node/11980488208",
+        "amenity": "restaurant",
+        "check_date": "2024-06-18",
+        "name": "Chill out ice cream and pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381012,
+          16.5231138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11992496626",
+      "properties": {
+        "@id": "node/11992496626",
+        "amenity": "fast_food",
+        "check_date": "2024-06-19",
+        "cuisine": "juice",
+        "name": "Fruit juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6379741,
+          16.5189442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11992504362",
+      "properties": {
+        "@id": "node/11992504362",
+        "amenity": "restaurant",
+        "check_date": "2024-06-19",
+        "cuisine": "pizza",
+        "name": "Eagles pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6379628,
+          16.5212793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11998928697",
+      "properties": {
+        "@id": "node/11998928697",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Kings Cuisine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6454637,
+          16.5020699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11998980360",
+      "properties": {
+        "@id": "node/11998980360",
+        "amenity": "cafe",
+        "check_date": "2024-06-21",
+        "name": "Andhra Tea House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6421598,
+          16.5011105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11998980363",
+      "properties": {
+        "@id": "node/11998980363",
+        "amenity": "restaurant",
+        "check_date": "2024-06-21",
+        "name": "Amrutha Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6425499,
+          16.5013732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11998980364",
+      "properties": {
+        "@id": "node/11998980364",
+        "amenity": "cafe",
+        "check_date": "2024-06-21",
+        "name": "Chai House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6425971,
+          16.5014838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12042137801",
+      "properties": {
+        "@id": "node/12042137801",
+        "alt_name": "Kentucky Fried Chicken",
+        "alt_name:en": "Kentucky Fried Chicken",
+        "alt_name:hi": "केंटुकी फ्राइड चिकन",
+        "alt_name:pa": "ਕੈਂਟੁਕੀ ਫ੍ਰਾਈਡ ਚਿਕਨ",
+        "alt_name:pnb": "کینٹکی فرائیڈ چکن",
+        "alt_name:ur": "کینٹکی فرائیڈ چکن",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:hi": "केएफसी",
+        "brand:pa": "ਕੇਐਫਸੀ",
+        "brand:pnb": "کے ایف سی",
+        "brand:ur": "کے ایف سی",
+        "brand:wikidata": "Q524757",
+        "check_date": "2024-06-26",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "name:en": "KFC",
+        "name:hi": "केएफसी",
+        "name:pa": "ਕੇਐਫਸੀ",
+        "name:pnb": "کے ایف سی",
+        "name:ur": "کے ایف سی",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6620075,
+          16.5049812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12042137802",
+      "properties": {
+        "@id": "node/12042137802",
+        "amenity": "restaurant",
+        "check_date": "2024-06-26",
+        "name": "Mandicroods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6623065,
+          16.5048445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12042137804",
+      "properties": {
+        "@id": "node/12042137804",
+        "amenity": "restaurant",
+        "check_date": "2024-07-08",
+        "name": "Honey Biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6376229,
+          16.5081406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12042137805",
+      "properties": {
+        "@id": "node/12042137805",
+        "amenity": "cafe",
+        "check_date": "2024-07-08",
+        "name": "Alfa Irani Chain House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381647,
+          16.5095146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12153102221",
+      "properties": {
+        "@id": "node/12153102221",
+        "amenity": "fast_food",
+        "check_date": "2025-07-24",
+        "internet_access": "no",
+        "name": "Tejasri Tiffins",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+919494363759",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6393026,
+          16.525485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12153102223",
+      "properties": {
+        "@id": "node/12153102223",
+        "amenity": "food_court",
+        "name": "Lakshmi Venkateswara Foods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6390764,
+          16.5255149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12189104964",
+      "properties": {
+        "@id": "node/12189104964",
+        "amenity": "cafe",
+        "check_date": "2024-09-21",
+        "name": "Telugu Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.651185,
+          16.5035026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12189104968",
+      "properties": {
+        "@id": "node/12189104968",
+        "amenity": "restaurant",
+        "check_date": "2024-09-21",
+        "name": "Klub F5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6497809,
+          16.5040354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12189104970",
+      "properties": {
+        "@id": "node/12189104970",
+        "amenity": "cafe",
+        "check_date": "2024-09-21",
+        "name": "Bengaluru Bhavan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6489104,
+          16.5037645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12189182982",
+      "properties": {
+        "@id": "node/12189182982",
+        "amenity": "restaurant",
+        "check_date": "2024-09-21",
+        "name": "Alankar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6542502,
+          16.501672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12189822958",
+      "properties": {
+        "@id": "node/12189822958",
+        "amenity": "restaurant",
+        "name": "Arabian Mandi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6487758,
+          16.5018683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12193020399",
+      "properties": {
+        "@id": "node/12193020399",
+        "amenity": "restaurant",
+        "check_date": "2025-07-10",
+        "name": "Syed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6147289,
+          16.5213257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12193047446",
+      "properties": {
+        "@id": "node/12193047446",
+        "amenity": "restaurant",
+        "check_date": "2025-07-10",
+        "name": "Milap's Punjabi Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6154086,
+          16.5207458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12193050917",
+      "properties": {
+        "@id": "node/12193050917",
+        "amenity": "restaurant",
+        "name": "Ahaa Biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6062227,
+          16.532824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12408965120",
+      "properties": {
+        "@id": "node/12408965120",
+        "amenity": "restaurant",
+        "check_date": "2024-12-10",
+        "name": "Subbayya Gari Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6301553,
+          16.5119967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12408965123",
+      "properties": {
+        "@id": "node/12408965123",
+        "amenity": "restaurant",
+        "check_date": "2024-12-10",
+        "name": "Good Morning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6289369,
+          16.5123808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12409370159",
+      "properties": {
+        "@id": "node/12409370159",
+        "amenity": "restaurant",
+        "check_date": "2024-12-10",
+        "name": "Green Bucket Biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6291182,
+          16.514101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12422552968",
+      "properties": {
+        "@id": "node/12422552968",
+        "amenity": "restaurant",
+        "check_date": "2024-12-14",
+        "name": "Mamata Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6209044,
+          16.5120628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12422552985",
+      "properties": {
+        "@id": "node/12422552985",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-12-14",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6384546,
+          16.5155432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12422552993",
+      "properties": {
+        "@id": "node/12422552993",
+        "amenity": "fast_food",
+        "check_date": "2024-12-14",
+        "name": "Abhiram Tiffins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6421135,
+          16.5113161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12425519488",
+      "properties": {
+        "@id": "node/12425519488",
+        "amenity": "fast_food",
+        "check_date": "2024-12-16",
+        "name": "Sri Balaji Fast Foods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6321903,
+          16.5119702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12433201240",
+      "properties": {
+        "@id": "node/12433201240",
+        "amenity": "cafe",
+        "check_date": "2024-12-19",
+        "name": "Madras Filter Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6529202,
+          16.5019616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12434974248",
+      "properties": {
+        "@id": "node/12434974248",
+        "amenity": "restaurant",
+        "check_date": "2024-12-20",
+        "name": "Military Hotels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.624644,
+          16.5071393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12595539152",
+      "properties": {
+        "@id": "node/12595539152",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6621612,
+          16.5111831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12596397177",
+      "properties": {
+        "@id": "node/12596397177",
+        "amenity": "restaurant",
+        "name": "Amaravathi Food &Beverage Zone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6162062,
+          16.509096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12597583482",
+      "properties": {
+        "@id": "node/12597583482",
+        "amenity": "restaurant",
+        "name": "mamata restaurent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6209772,
+          16.5120237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12597660378",
+      "properties": {
+        "@id": "node/12597660378",
+        "amenity": "restaurant",
+        "name": "TPL restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433521,
+          16.5050641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12597664512",
+      "properties": {
+        "@id": "node/12597664512",
+        "amenity": "restaurant",
+        "name": "andhra restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6439538,
+          16.5043399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12607610883",
+      "properties": {
+        "@id": "node/12607610883",
+        "amenity": "restaurant",
+        "check_date": "2025-02-21",
+        "name": "Raj Darbar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6523014,
+          16.4982845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12607673808",
+      "properties": {
+        "@id": "node/12607673808",
+        "amenity": "restaurant",
+        "check_date": "2025-02-22",
+        "name": "Alfa Arabian Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6156887,
+          16.5066341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12607673812",
+      "properties": {
+        "@id": "node/12607673812",
+        "amenity": "restaurant",
+        "check_date": "2025-02-22",
+        "name": "Taj Biryani Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5942131,
+          16.5251929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12609901250",
+      "properties": {
+        "@id": "node/12609901250",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Prasad Tiffin Center",
+        "opening_hours": "05:30-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5953251,
+          16.5279517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12618091284",
+      "properties": {
+        "@id": "node/12618091284",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "name": "Ragada Wale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5980989,
+          16.5345978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12618091285",
+      "properties": {
+        "@id": "node/12618091285",
+        "amenity": "cafe",
+        "check_date": "2025-07-10",
+        "cuisine": "coffee_shop",
+        "name": "Brew Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5981096,
+          16.5346649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12618091286",
+      "properties": {
+        "@id": "node/12618091286",
+        "amenity": "cafe",
+        "check_date": "2025-07-10",
+        "name": "Froffles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5981486,
+          16.5347697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12690483904",
+      "properties": {
+        "@id": "node/12690483904",
+        "amenity": "food_court",
+        "name": "Eat street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6362951,
+          16.5043855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846602893",
+      "properties": {
+        "@id": "node/12846602893",
+        "amenity": "fast_food",
+        "name": "SHAVARMA POINT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.643396,
+          16.5029418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846602895",
+      "properties": {
+        "@id": "node/12846602895",
+        "amenity": "fast_food",
+        "name": "Chat Bandhar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433129,
+          16.502685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846602896",
+      "properties": {
+        "@id": "node/12846602896",
+        "amenity": "fast_food",
+        "name": "ice cream point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6428617,
+          16.5020651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846602897",
+      "properties": {
+        "@id": "node/12846602897",
+        "amenity": "fast_food",
+        "name": "MOMO KING"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6447865,
+          16.5021299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846602899",
+      "properties": {
+        "@id": "node/12846602899",
+        "amenity": "fast_food",
+        "name": "NOODLE point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6439378,
+          16.5048332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608865",
+      "properties": {
+        "@id": "node/12846608865",
+        "amenity": "fast_food",
+        "check_date": "2026-08-07",
+        "name": "Apsara Badam Milk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433047,
+          16.5029087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608866",
+      "properties": {
+        "@id": "node/12846608866",
+        "amenity": "fast_food",
+        "name": "Manchurian point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6434517,
+          16.5035333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608870",
+      "properties": {
+        "@id": "node/12846608870",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "fresh fruit juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6420656,
+          16.5078294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608871",
+      "properties": {
+        "@id": "node/12846608871",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "coconut juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6423275,
+          16.5076171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608875",
+      "properties": {
+        "@id": "node/12846608875",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Fresh fruit juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6432667,
+          16.5028158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608876",
+      "properties": {
+        "@id": "node/12846608876",
+        "amenity": "fast_food",
+        "name": "chat point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6432216,
+          16.5025771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608877",
+      "properties": {
+        "@id": "node/12846608877",
+        "amenity": "restaurant",
+        "name": "GRILLS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433611,
+          16.5026738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608878",
+      "properties": {
+        "@id": "node/12846608878",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6437967,
+          16.5024516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608881",
+      "properties": {
+        "@id": "node/12846608881",
+        "amenity": "fast_food",
+        "name": "chat and drink"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6443224,
+          16.5022767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846608882",
+      "properties": {
+        "@id": "node/12846608882",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "degree coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6433274,
+          16.5018273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846858542",
+      "properties": {
+        "@id": "node/12846858542",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "coconut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6441226,
+          16.5055294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846862618",
+      "properties": {
+        "@id": "node/12846862618",
+        "amenity": "restaurant",
+        "name": "tiffin spot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6437946,
+          16.5024758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12849292779",
+      "properties": {
+        "@id": "node/12849292779",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "MG Rd, Opposite Kalanjali, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "name": "Temptations"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6427016,
+          16.5025001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12849318051",
+      "properties": {
+        "@id": "node/12849318051",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "Quality Hotel D V Manor, MG Rd, Revenue Colony Park, Sidhartha Nagar, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "amenity": "cafe",
+        "name": "Springs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6482322,
+          16.500458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850185597",
+      "properties": {
+        "@id": "node/12850185597",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "Venus Apartments, Sri Natrajan Guljar Rd, Venkateswara Puram, Acharya Ranga Nagar, Benz Circle, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "name": "Budget Fried Chicken - BFC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6485813,
+          16.5004066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850488698",
+      "properties": {
+        "@id": "node/12850488698",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "Door No 42/1/52D & 52E, UGF, KK Towers, MG Rd, near Benz Circle, Opposite HDFC Bank, Acharya Ranga Nagar, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "alt_name:en": "Kentucky Fried Chicken",
+        "alt_name:hi": "केंटुकी फ्राइड चिकन",
+        "alt_name:pa": "ਕੈਂਟੁਕੀ ਫ੍ਰਾਈਡ ਚਿਕਨ",
+        "alt_name:pnb": "کینٹکی فرائیڈ چکن",
+        "alt_name:ur": "کینٹکی فرائیڈ چکن",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:hi": "केएफसी",
+        "brand:pa": "ਕੇਐਫਸੀ",
+        "brand:pnb": "کے ایف سی",
+        "brand:ur": "کے ایف سی",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "name:en": "KFC",
+        "name:hi": "केएफसी",
+        "name:pa": "ਕੇਐਫਸੀ",
+        "name:pnb": "کے ایف سی",
+        "name:ur": "کے ایف سی",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6516455,
+          16.4991462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850501795",
+      "properties": {
+        "@id": "node/12850501795",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "40-1-51C, 2nd Floor, KBCL Building, MG Rd, beside KFC building, Aacharya, near Benz Circle, Acharya Ranga Nagar, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "name": "Platform 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6516276,
+          16.4991016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850573161",
+      "properties": {
+        "@id": "node/12850573161",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "1/4, Chandra Mouli Puram, Acharya Ranga Nagar, Benz Circle, Vijayawada, Andhra Pradesh 520008",
+        "addr:postcode": "520008",
+        "addr:street": "MG Road",
+        "amenity": "cafe",
+        "name": "Chikmagalur Caffé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6523431,
+          16.4982866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850656961",
+      "properties": {
+        "@id": "node/12850656961",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "Kala Nagar Rd, near KFC, Sai Nagar, Kala Nagar, Acharya Ranga Nagar, Benz Circle, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "MG Road",
+        "amenity": "restaurant",
+        "name": "United Food palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6531052,
+          16.4986946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850836729",
+      "properties": {
+        "@id": "node/12850836729",
+        "addr:city": "VIJAYAWADA",
+        "addr:district": "NTR",
+        "addr:housenumber": "36-12-11, 2nd Ln, Moghalrajpuram, Shanti Nagar, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "AS Rama Rao Road",
+        "amenity": "restaurant",
+        "name": "Tarnaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6431127,
+          16.506922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12850913490",
+      "properties": {
+        "@id": "node/12850913490",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "Jammi Chettu Center, beside HP Petrol Pump, Mogalrajapuram, Christurajupuram, Vijayawada, Andhra Pradesh 520010",
+        "addr:postcode": "520010",
+        "addr:street": "AS Rama Rao Road",
+        "amenity": "restaurant",
+        "cuisine": "rayalaseema",
+        "name": "Kritunga Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6451821,
+          16.5068271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852370693",
+      "properties": {
+        "@id": "node/12852370693",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "My Home Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6434207,
+          16.5070668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852502790",
+      "properties": {
+        "@id": "node/12852502790",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "Good Morning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6479872,
+          16.5061539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852507083",
+      "properties": {
+        "@id": "node/12852507083",
+        "amenity": "fast_food",
+        "check_date": "2025-05-21",
+        "cuisine": "indian",
+        "name": "Ramya Curry Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6461566,
+          16.5065505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852590172",
+      "properties": {
+        "@id": "node/12852590172",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "AL-Rahim Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.649528,
+          16.5067535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852595570",
+      "properties": {
+        "@id": "node/12852595570",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "cuisine": "breakfast",
+        "name": "Anjali Tiffin Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6501043,
+          16.5071826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852680422",
+      "properties": {
+        "@id": "node/12852680422",
+        "amenity": "cafe",
+        "check_date": "2025-05-21",
+        "name": "Prasanthi Tea Corner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6401904,
+          16.5072503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852751079",
+      "properties": {
+        "@id": "node/12852751079",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "Dashing Ruchulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6392456,
+          16.5040044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852793891",
+      "properties": {
+        "@id": "node/12852793891",
+        "amenity": "cafe",
+        "check_date": "2025-05-21",
+        "cuisine": "bubble_tea",
+        "name": "Balaji Tea Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6399113,
+          16.5065351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852858673",
+      "properties": {
+        "@id": "node/12852858673",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "Sairam Tiffins Mess"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6406258,
+          16.5091141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852861501",
+      "properties": {
+        "@id": "node/12852861501",
+        "amenity": "fast_food",
+        "check_date": "2025-05-21",
+        "cuisine": "indian",
+        "name": "SK Curries Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6399504,
+          16.5061603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852862559",
+      "properties": {
+        "@id": "node/12852862559",
+        "amenity": "restaurant",
+        "check_date": "2025-05-21",
+        "name": "Mana Bhojana Shala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6404125,
+          16.5071413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854808355",
+      "properties": {
+        "@id": "node/12854808355",
+        "amenity": "restaurant",
+        "name": "annapurna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6382388,
+          16.5298187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854843092",
+      "properties": {
+        "@id": "node/12854843092",
+        "amenity": "restaurant",
+        "check_date": "2025-07-24",
+        "internet_access": "no",
+        "name": "RR Joints",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381876,
+          16.5298759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854849811",
+      "properties": {
+        "@id": "node/12854849811",
+        "amenity": "fast_food",
+        "name": "ss biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6378036,
+          16.529865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854854712",
+      "properties": {
+        "@id": "node/12854854712",
+        "amenity": "fast_food",
+        "check_date": "2025-07-24",
+        "internet_access": "no",
+        "name": "pulka point",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6377637,
+          16.5300423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854860012",
+      "properties": {
+        "@id": "node/12854860012",
+        "amenity": "fast_food",
+        "check_date": "2025-07-24",
+        "cuisine": "juice",
+        "internet_access": "no",
+        "name": "Your's juice",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6378633,
+          16.5297723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854861429",
+      "properties": {
+        "@id": "node/12854861429",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "juice point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6378292,
+          16.5296523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854873231",
+      "properties": {
+        "@id": "node/12854873231",
+        "amenity": "restaurant",
+        "name": "anna canteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6364446,
+          16.5283809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854874200",
+      "properties": {
+        "@id": "node/12854874200",
+        "amenity": "fast_food",
+        "name": "shawarma point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6350574,
+          16.5277326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12860113347",
+      "properties": {
+        "@id": "node/12860113347",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "fruit juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6385842,
+          16.5297964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12860138385",
+      "properties": {
+        "@id": "node/12860138385",
+        "amenity": "fast_food",
+        "name": "chat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6376458,
+          16.5303594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12862601393",
+      "properties": {
+        "@id": "node/12862601393",
+        "amenity": "fast_food",
+        "name": "chat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6379104,
+          16.5205032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12862662297",
+      "properties": {
+        "@id": "node/12862662297",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Chill drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6315094,
+          16.5209061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12862695069",
+      "properties": {
+        "@id": "node/12862695069",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Fresh juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6307616,
+          16.5175762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12864000465",
+      "properties": {
+        "@id": "node/12864000465",
+        "amenity": "food_court",
+        "check_date": "2025-07-11",
+        "name": "Pindi Vantalu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6569272,
+          16.4981938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12868327081",
+      "properties": {
+        "@id": "node/12868327081",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger;coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "RR Durbar",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6549476,
+          16.4913034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12868330187",
+      "properties": {
+        "@id": "node/12868330187",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sri Lakshmi Fast Food Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6561528,
+          16.4927563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12868341103",
+      "properties": {
+        "@id": "node/12868341103",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "New Taste Restaurant",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6543825,
+          16.492246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12868343288",
+      "properties": {
+        "@id": "node/12868343288",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Madhuri Foods",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6541801,
+          16.4922523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12868348314",
+      "properties": {
+        "@id": "node/12868348314",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "SS Biriyani & Curry Point",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.654196,
+          16.4895575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12870980484",
+      "properties": {
+        "@id": "node/12870980484",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Paradise Biriyani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6545807,
+          16.4990532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12870983909",
+      "properties": {
+        "@id": "node/12870983909",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Shakes & Burgers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6546293,
+          16.4993204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871004039",
+      "properties": {
+        "@id": "node/12871004039",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Tibbs Frankie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6536269,
+          16.4983886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871010136",
+      "properties": {
+        "@id": "node/12871010136",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Barbeque Pride"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6538166,
+          16.4981889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871020509",
+      "properties": {
+        "@id": "node/12871020509",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6538965,
+          16.4989055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871496658",
+      "properties": {
+        "@id": "node/12871496658",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6511414,
+          16.4972247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871676224",
+      "properties": {
+        "@id": "node/12871676224",
+        "addr:city": "Vijayawada",
+        "addr:street": "Bandar Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "alt_name:en": "Kentucky Fried Chicken",
+        "alt_name:hi": "केंटुकी फ्राइड चिकन",
+        "alt_name:pa": "ਕੈਂਟੁਕੀ ਫ੍ਰਾਈਡ ਚਿਕਨ",
+        "alt_name:pnb": "کینٹکی فرائیڈ چکن",
+        "alt_name:ur": "کینٹکی فرائیڈ چکن",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:hi": "केएफसी",
+        "brand:pa": "ਕੇਐਫਸੀ",
+        "brand:pnb": "کے ایف سی",
+        "brand:ur": "کے ایف سی",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "brand:wikipedia:pa": "ਕੇਐਫਸੀ",
+        "brand:wikipedia:ur": "کینٹکی فرائیڈ چکن",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "KFC",
+        "name:en": "KFC",
+        "name:hi": "केएफसी",
+        "name:pa": "ਕੇਐਫਸੀ",
+        "name:pnb": "کے ایف سی",
+        "name:ur": "کے ایف سی",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6519012,
+          16.4989727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871689290",
+      "properties": {
+        "@id": "node/12871689290",
+        "amenity": "restaurant",
+        "name": "Aromas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6481832,
+          16.5002716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12871712115",
+      "properties": {
+        "@id": "node/12871712115",
+        "amenity": "restaurant",
+        "brand": "Barbeque Nation",
+        "brand:wikidata": "Q4859568",
+        "cuisine": "barbecue",
+        "name": "Barbeque Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6458131,
+          16.5002393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12872818253",
+      "properties": {
+        "@id": "node/12872818253",
+        "amenity": "restaurant",
+        "brand": "Sweet Chariot",
+        "delivery": "yes",
+        "name": "Sweet Magic Restaurant",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6428728,
+          16.501645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12872868274",
+      "properties": {
+        "@id": "node/12872868274",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6427634,
+          16.5025716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873263506",
+      "properties": {
+        "@id": "node/12873263506",
+        "amenity": "restaurant",
+        "name": "Swagath Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6396878,
+          16.5060459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873299572",
+      "properties": {
+        "@id": "node/12873299572",
+        "amenity": "restaurant",
+        "name": "Vindhu Maharaj Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6408437,
+          16.5082944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873315409",
+      "properties": {
+        "@id": "node/12873315409",
+        "amenity": "restaurant",
+        "name": "Vijaya Durga Fruit Juice & Ice Creams"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.640044,
+          16.5070271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873389819",
+      "properties": {
+        "@id": "node/12873389819",
+        "amenity": "restaurant",
+        "name": "Dosa Palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6440992,
+          16.506822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873548127",
+      "properties": {
+        "@id": "node/12873548127",
+        "amenity": "restaurant",
+        "name": "Moghal Restaurant & Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6451605,
+          16.50652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873577899",
+      "properties": {
+        "@id": "node/12873577899",
+        "amenity": "restaurant",
+        "name": "TFL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6440227,
+          16.5066021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873578964",
+      "properties": {
+        "@id": "node/12873578964",
+        "amenity": "restaurant",
+        "name": "Food Xpress"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6448582,
+          16.5066098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873747102",
+      "properties": {
+        "@id": "node/12873747102",
+        "amenity": "restaurant",
+        "name": "Manor Food Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.648867,
+          16.502121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873758118",
+      "properties": {
+        "@id": "node/12873758118",
+        "amenity": "restaurant",
+        "name": "Dinesh Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6490709,
+          16.5025737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12873774916",
+      "properties": {
+        "@id": "node/12873774916",
+        "amenity": "restaurant",
+        "name": "City Central Restaurant & Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.652081,
+          16.5026587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875295678",
+      "properties": {
+        "@id": "node/12875295678",
+        "amenity": "restaurant",
+        "name": "Koolants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6548801,
+          16.5035358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875361890",
+      "properties": {
+        "@id": "node/12875361890",
+        "amenity": "restaurant",
+        "name": "Dolphin's Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6571228,
+          16.5013964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875378532",
+      "properties": {
+        "@id": "node/12875378532",
+        "amenity": "restaurant",
+        "name": "Priya Aahar Foods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6545488,
+          16.5021291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875433907",
+      "properties": {
+        "@id": "node/12875433907",
+        "amenity": "restaurant",
+        "name": "Brew Buzz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6575064,
+          16.5022746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875445031",
+      "properties": {
+        "@id": "node/12875445031",
+        "amenity": "restaurant",
+        "name": "Royal Nawaab Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6574903,
+          16.5017693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875453466",
+      "properties": {
+        "@id": "node/12875453466",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6600063,
+          16.5030981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875511958",
+      "properties": {
+        "@id": "node/12875511958",
+        "amenity": "restaurant",
+        "name": "The Granios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6614712,
+          16.5043448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875527619",
+      "properties": {
+        "@id": "node/12875527619",
+        "amenity": "restaurant",
+        "name": "Shake Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6613733,
+          16.5045801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875539521",
+      "properties": {
+        "@id": "node/12875539521",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Pizza World"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6616954,
+          16.5048717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875539699",
+      "properties": {
+        "@id": "node/12875539699",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger;coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kaizen's Kitchen",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6634817,
+          16.5047263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875542144",
+      "properties": {
+        "@id": "node/12875542144",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sri Anjaneya Restaurant",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6655024,
+          16.5034267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875545103",
+      "properties": {
+        "@id": "node/12875545103",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6619569,
+          16.5050157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875545858",
+      "properties": {
+        "@id": "node/12875545858",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sri Karthikeya Tiffin Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6642193,
+          16.5041901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875547906",
+      "properties": {
+        "@id": "node/12875547906",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6633623,
+          16.5045836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875549933",
+      "properties": {
+        "@id": "node/12875549933",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Vindhu Bojhanam",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6642474,
+          16.5039394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875556615",
+      "properties": {
+        "@id": "node/12875556615",
+        "amenity": "restaurant",
+        "name": "Shawarma Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6645251,
+          16.5042326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875616621",
+      "properties": {
+        "@id": "node/12875616621",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Monk's Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6673839,
+          16.5033463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875631907",
+      "properties": {
+        "@id": "node/12875631907",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6673684,
+          16.5028488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875650080",
+      "properties": {
+        "@id": "node/12875650080",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "indian;pizza;chinese;sandwich;kebab;ice_cream;seafood;noodle;korean",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:seafood": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Spicy Biriyani Hub",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6707127,
+          16.5015308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875655620",
+      "properties": {
+        "@id": "node/12875655620",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "indian;pizza;burger;italian;sandwich;chicken;kebab",
+        "diet:local": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Malik Biriyani House",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6689766,
+          16.5026245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875655622",
+      "properties": {
+        "@id": "node/12875655622",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "indian;pizza;burger;italian;chinese;chicken;sandwich;kebab;asian;ice_cream;seafood",
+        "diet:chicken": "yes",
+        "diet:healthy": "yes",
+        "diet:local": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sri Durga Vilas",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6698399,
+          16.5019259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875657617",
+      "properties": {
+        "@id": "node/12875657617",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "pizza;burger",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sri Venkata Durga Old Springs",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6690145,
+          16.4985015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875660635",
+      "properties": {
+        "@id": "node/12875660635",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "indian;burger;chinese;chicken;kebab;wings",
+        "diet:chicken": "yes",
+        "diet:fish": "yes",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:noodle": "yes",
+        "diet:organic": "yes",
+        "diet:ovo_vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Swasthik Biriyani Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6704361,
+          16.5008678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875661083",
+      "properties": {
+        "@id": "node/12875661083",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Coorg Premium Coffee",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6708977,
+          16.5020606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12988957789",
+      "properties": {
+        "@id": "node/12988957789",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2025-07-08",
+        "cuisine": "pizza;juice;chicken;sandwich;regional",
+        "diet:vegetarian": "yes",
+        "name": "Iron Hill",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444884,
+          16.5050656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12988957790",
+      "properties": {
+        "@id": "node/12988957790",
+        "amenity": "restaurant",
+        "check_date": "2025-07-08",
+        "name": "Iron Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444874,
+          16.5050638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12988957791",
+      "properties": {
+        "@id": "node/12988957791",
+        "amenity": "restaurant",
+        "check_date": "2025-07-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6444815,
+          16.5050053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12989798115",
+      "properties": {
+        "@id": "node/12989798115",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Aditi Cafe",
+        "opening_hours:drive_through": "Mo-Sa 09:00-20:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6771352,
+          16.5243678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12990091105",
+      "properties": {
+        "@id": "node/12990091105",
+        "amenity": "fast_food",
+        "check_date": "2025-07-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6501314,
+          16.503533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991072349",
+      "properties": {
+        "@id": "node/12991072349",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "cuisine": "juice",
+        "description": "Famous juice shop available mosambi juice and musk melon juice",
+        "fixme:type": "juice shop",
+        "name": "Sri Durga Fruit Juice",
+        "name:en": "Sri Durga Fruit Juice",
+        "opening_hours": "Mo-Sa 10:00-17:00",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+91 99591 17312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6737012,
+          16.4995423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991173764",
+      "properties": {
+        "@id": "node/12991173764",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "name": "Sri Venkamanba Tea And Tiffin",
+        "opening_hours": "10:00-16:00",
+        "phone": "+91 91820 68676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.674847,
+          16.4987963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991257191",
+      "properties": {
+        "@id": "node/12991257191",
+        "amenity": "restaurant",
+        "check_date": "2025-07-10",
+        "name": "Hotel New Milap",
+        "opening_hours": "Mo-Sa 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6739093,
+          16.4993411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992361459",
+      "properties": {
+        "@id": "node/12992361459",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "cuisine": "juice",
+        "name": "Juice Shop",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6364504,
+          16.4981272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992380455",
+      "properties": {
+        "@id": "node/12992380455",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "cuisine": "juice",
+        "name": "Juice Shop",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6364505,
+          16.498127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992420469",
+      "properties": {
+        "@id": "node/12992420469",
+        "amenity": "fast_food",
+        "check_date": "2025-07-10",
+        "name": "Anjaneya Food Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6517913,
+          16.5192508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993605785",
+      "properties": {
+        "@id": "node/12993605785",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "fast_food": "cafeteria",
+        "internet_access": "no",
+        "name": "Rajadhani Foods , Veg And Non Veg",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 86395 36367",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6761409,
+          16.5043448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993607268",
+      "properties": {
+        "@id": "node/12993607268",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Mkr Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6771822,
+          16.5096688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993610071",
+      "properties": {
+        "@id": "node/12993610071",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "fixme": "type",
+        "fixme:type": "shop",
+        "internet_access": "no",
+        "name": "Kichidi Point",
+        "phone": "+91 86882 55433",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6756169,
+          16.5047356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993622002",
+      "properties": {
+        "@id": "node/12993622002",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Srushi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6683508,
+          16.5234375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993622093",
+      "properties": {
+        "@id": "node/12993622093",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "cuisine": "juice",
+        "internet_access": "no",
+        "name": "M Ramana Shp",
+        "opening_hours": "Mo-Sa 06:00-21:00",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+91 99632 06678",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6767638,
+          16.5072593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993624950",
+      "properties": {
+        "@id": "node/12993624950",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "description": "Tiffen centre",
+        "internet_access": "no",
+        "name": "Rajarajeswari Tea& tiffen Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 89194 70501",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6755679,
+          16.5047521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993626332",
+      "properties": {
+        "@id": "node/12993626332",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Abdul Rafi Shop",
+        "opening_hours": "Mo-Sa 12:00-22:00",
+        "phone": "+91 70758 92916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6771066,
+          16.5075957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993627975",
+      "properties": {
+        "@id": "node/12993627975",
+        "amenity": "cafe",
+        "brand": "Chai Point",
+        "brand:wikidata": "Q28173415",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Modern Chai",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6774556,
+          16.5036236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993628852",
+      "properties": {
+        "@id": "node/12993628852",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "description": "Tea,coffee,tiffin and fastfood centre",
+        "fixme:type": "Charminar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Charminar",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+91 98485 71122",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6754676,
+          16.5045788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993629032",
+      "properties": {
+        "@id": "node/12993629032",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "description": "Both veg & non-veg",
+        "internet_access": "no",
+        "name": "Sri Kota Durga Amma Mess",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 99498 93890",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6759719,
+          16.5050649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993629602",
+      "properties": {
+        "@id": "node/12993629602",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "M.k.R Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.677145,
+          16.5097088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993631750",
+      "properties": {
+        "@id": "node/12993631750",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Babai Mess",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6794152,
+          16.5066214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993632978",
+      "properties": {
+        "@id": "node/12993632978",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "cuisine": "juice",
+        "name": "Shaper Jishu",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "phone": "+91 90004 24068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6786675,
+          16.5067125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993633602",
+      "properties": {
+        "@id": "node/12993633602",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Bhavani Pulka Point",
+        "opening_hours": "Mo-Sa 10:00-23:00",
+        "phone": "+91 63619 21915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.679028,
+          16.5067607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993633615",
+      "properties": {
+        "@id": "node/12993633615",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "description": "Veg &non veg meals available",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Kothaya",
+        "opening_hours": "Mo-Sa 12:00-23:00",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+91 92462 96077",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6753384,
+          16.5044116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993634011",
+      "properties": {
+        "@id": "node/12993634011",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "Multi cuisine",
+        "name": "Rahmans multi cuisine restaurant",
+        "opening_hours": "11:00-10:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6771373,
+          16.509695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993637139",
+      "properties": {
+        "@id": "node/12993637139",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "description": "Catering available",
+        "internet_access": "no",
+        "name": "Kotaiah Mess",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 90327 77177",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6753369,
+          16.5044672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993638784",
+      "properties": {
+        "@id": "node/12993638784",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "internet_access": "no",
+        "name": "Andhra Bojanam",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6746636,
+          16.50346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993639032",
+      "properties": {
+        "@id": "node/12993639032",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "fixme:type": "kichidi point",
+        "internet_access": "no",
+        "name": "Halal Food",
+        "phone": "+91 86882 55433",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6756955,
+          16.505034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993639244",
+      "properties": {
+        "@id": "node/12993639244",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Belal Khichdi Point",
+        "opening_hours": "Mo-Sa 11:00-17:00",
+        "phone": "+91 95507 78503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6787091,
+          16.5067247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993640593",
+      "properties": {
+        "@id": "node/12993640593",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Harsha",
+        "phone": "+91 90002 25174"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6782008,
+          16.5071623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993640594",
+      "properties": {
+        "@id": "node/12993640594",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Jai Vinayaka",
+        "phone": "+91 95500 36188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6786031,
+          16.5069823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993641869",
+      "properties": {
+        "@id": "node/12993641869",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sweet Magic",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6752637,
+          16.5042721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993645260",
+      "properties": {
+        "@id": "node/12993645260",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "internet_access": "no",
+        "name": "Rajadani Food",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 86395 36367",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.676413,
+          16.5071264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993647935",
+      "properties": {
+        "@id": "node/12993647935",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "fixme:type": "shopUC tea center",
+        "internet_access": "no",
+        "name": "Uc Tea Center",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6748593,
+          16.5032302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993648832",
+      "properties": {
+        "@id": "node/12993648832",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "description": "Non veg items",
+        "fixme:type": "biryani",
+        "internet_access": "no",
+        "name": "Biryani Point",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+91 94937 30554",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6746198,
+          16.5033945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993655599",
+      "properties": {
+        "@id": "node/12993655599",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Bernard Floods",
+        "opening_hours": "Mo-Sa 11:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6765689,
+          16.5077124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993683708",
+      "properties": {
+        "@id": "node/12993683708",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Lakshmi Ganapathi Fast Foods",
+        "phone": "+91 95156 51597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.676727,
+          16.5079023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993685908",
+      "properties": {
+        "@id": "node/12993685908",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "New Taj Biriyani Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.674711,
+          16.5035507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993692413",
+      "properties": {
+        "@id": "node/12993692413",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "cuisine": "juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6766434,
+          16.5074751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993704742",
+      "properties": {
+        "@id": "node/12993704742",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "K Koteswari",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6754359,
+          16.503051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993716996",
+      "properties": {
+        "@id": "node/12993716996",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6756217,
+          16.5102351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994132047",
+      "properties": {
+        "@id": "node/12994132047",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "cuisine": "indian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6586708,
+          16.5242429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994138455",
+      "properties": {
+        "@id": "node/12994138455",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "description": "Biriyani house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6582639,
+          16.5247958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994290398",
+      "properties": {
+        "@id": "node/12994290398",
+        "amenity": "cafe",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Binge Cafe",
+        "phone": "+91 90109 94848"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6505296,
+          16.5045534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994303786",
+      "properties": {
+        "@id": "node/12994303786",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "fast_food": "cafeteria",
+        "name": "Milkshake Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.611573,
+          16.5225851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994377809",
+      "properties": {
+        "@id": "node/12994377809",
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Cross-roads Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6431707,
+          16.5076075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994379399",
+      "properties": {
+        "@id": "node/12994379399",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Anna Canteen",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6385817,
+          16.4992473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994400618",
+      "properties": {
+        "@id": "node/12994400618",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Basha Pani Puri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6377614,
+          16.4997429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994413816",
+      "properties": {
+        "@id": "node/12994413816",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Fast Food Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6376764,
+          16.4993847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994425904",
+      "properties": {
+        "@id": "node/12994425904",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Fast Food Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6374843,
+          16.4994259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994428254",
+      "properties": {
+        "@id": "node/12994428254",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "cuisine": "chicken",
+        "name": "RK Chicken Shop",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6380483,
+          16.4991054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994447554",
+      "properties": {
+        "@id": "node/12994447554",
+        "amenity": "fast_food",
+        "check_date": "2025-07-11",
+        "name": "Pani Puri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6385656,
+          16.4969567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995216006",
+      "properties": {
+        "@id": "node/12995216006",
+        "amenity": "fast_food",
+        "check_date": "2025-07-12",
+        "cuisine": "indian;pizza;burger;sandwich;dessert",
+        "description": "Bakery items, biryani, pizzas, cooldrinks etc..... Are available",
+        "diet:chicken": "yes",
+        "diet:local": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Modern Foods",
+        "opening_hours": "09:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6441479,
+          16.5213082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995568708",
+      "properties": {
+        "@id": "node/12995568708",
+        "amenity": "restaurant",
+        "check_date": "2025-07-12",
+        "name": "Adhinarayana",
+        "phone": "+91 77801 75454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6375137,
+          16.5079251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995606352",
+      "properties": {
+        "@id": "node/12995606352",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6440136,
+          16.517314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995695706",
+      "properties": {
+        "@id": "node/12995695706",
+        "amenity": "cafe",
+        "name": "mysore cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6402193,
+          16.5163514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995698852",
+      "properties": {
+        "@id": "node/12995698852",
+        "alt_name": "Kentucky Fried Chicken",
+        "alt_name:en": "Kentucky Fried Chicken",
+        "alt_name:hi": "केंटुकी फ्राइड चिकन",
+        "alt_name:pa": "ਕੈਂਟੁਕੀ ਫ੍ਰਾਈਡ ਚਿਕਨ",
+        "alt_name:pnb": "کینٹکی فرائیڈ چکن",
+        "alt_name:ur": "کینٹکی فرائیڈ چکن",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:hi": "केएफसी",
+        "brand:pa": "ਕੇਐਫਸੀ",
+        "brand:pnb": "کے ایف سی",
+        "brand:ur": "کے ایف سی",
+        "brand:wikidata": "Q524757",
+        "check_date": "2025-07-20",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "name:en": "KFC",
+        "name:hi": "केएफसी",
+        "name:pa": "ਕੇਐਫਸੀ",
+        "name:pnb": "کے ایف سی",
+        "name:ur": "کے ایف سی",
+        "opening_hours": "10:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6439291,
+          16.5172949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995759168",
+      "properties": {
+        "@id": "node/12995759168",
+        "amenity": "restaurant",
+        "check_date": "2025-07-12",
+        "internet_access": "no",
+        "name": "Nizams Khichdi",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381742,
+          16.53797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995764529",
+      "properties": {
+        "@id": "node/12995764529",
+        "amenity": "cafe",
+        "check_date": "2025-07-12",
+        "cuisine": "pizza;burger",
+        "internet_access": "no",
+        "name": "Avant Cafe",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6384262,
+          16.5377709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995780417",
+      "properties": {
+        "@id": "node/12995780417",
+        "addr:door": "GJQQ+49c",
+        "amenity": "cafe",
+        "check_date": "2025-07-12",
+        "cuisine": "pizza;burger",
+        "internet_access": "no",
+        "name": "Avant Cafe",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.638934,
+          16.5361662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995785796",
+      "properties": {
+        "@id": "node/12995785796",
+        "amenity": "fast_food",
+        "check_date": "2025-07-12",
+        "drive_through": "yes",
+        "internet_access": "no",
+        "name": "Dilwale Falooda &Ice Cream",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6372394,
+          16.5365225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995796289",
+      "properties": {
+        "@id": "node/12995796289",
+        "amenity": "fast_food",
+        "check_date": "2025-07-12",
+        "internet_access": "no",
+        "name": "Mehfil 5star Falooda & Shawarma",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6372202,
+          16.5362215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995806322",
+      "properties": {
+        "@id": "node/12995806322",
+        "amenity": "restaurant",
+        "check_date": "2025-07-12",
+        "diet:halal": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Subani Hotel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6376876,
+          16.536919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995807421",
+      "properties": {
+        "@id": "node/12995807421",
+        "amenity": "restaurant",
+        "check_date": "2025-07-12",
+        "diet:halal": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Zakeer Hussain Biryani Point",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91 99512 87178",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.636772,
+          16.5379405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995811721",
+      "properties": {
+        "@id": "node/12995811721",
+        "amenity": "restaurant",
+        "check_date": "2025-07-12",
+        "diet:halal": "yes",
+        "name": "Zaara Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6366142,
+          16.5373892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12996053028",
+      "properties": {
+        "@id": "node/12996053028",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6249969,
+          16.5361862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12996090837",
+      "properties": {
+        "@id": "node/12996090837",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6282805,
+          16.5374441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12996132713",
+      "properties": {
+        "@id": "node/12996132713",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6276033,
+          16.5345565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12999358564",
+      "properties": {
+        "@id": "node/12999358564",
+        "amenity": "restaurant",
+        "check_date": "2025-07-14",
+        "name": "Hotel Kartikeya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6157082,
+          16.5098706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12999358566",
+      "properties": {
+        "@id": "node/12999358566",
+        "amenity": "restaurant",
+        "check_date": "2025-07-14",
+        "name": "Sri Rama Fastfood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6170032,
+          16.5100043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13001406921",
+      "properties": {
+        "@id": "node/13001406921",
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Navaratan Fruit Juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6275866,
+          16.5109562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13001406926",
+      "properties": {
+        "@id": "node/13001406926",
+        "amenity": "cafe",
+        "name": "Madras Filter Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6318142,
+          16.5108052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13001406933",
+      "properties": {
+        "@id": "node/13001406933",
+        "amenity": "fast_food",
+        "cuisine": "juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6351316,
+          16.5111546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13001406938",
+      "properties": {
+        "@id": "node/13001406938",
+        "amenity": "restaurant",
+        "name": "Lalithamba Biryani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6358522,
+          16.5107382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13204695462",
+      "properties": {
+        "@id": "node/13204695462",
+        "amenity": "restaurant",
+        "name": "anna canteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6364691,
+          16.5284526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13207677270",
+      "properties": {
+        "@id": "node/13207677270",
+        "amenity": "restaurant",
+        "check_date": "2025-10-10",
+        "name": "aaruchulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6158776,
+          16.5065707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13207677271",
+      "properties": {
+        "@id": "node/13207677271",
+        "amenity": "restaurant",
+        "check_date": "2025-10-10",
+        "name": "PUBG's Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6158293,
+          16.5065761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13207677272",
+      "properties": {
+        "@id": "node/13207677272",
+        "amenity": "restaurant",
+        "check_date": "2025-10-10",
+        "name": "Red Chillies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6157772,
+          16.5065689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13207677273",
+      "properties": {
+        "@id": "node/13207677273",
+        "amenity": "restaurant",
+        "check_date": "2025-10-10",
+        "name": "Punjabi Dhaba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6156657,
+          16.5065805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13289790634",
+      "properties": {
+        "@id": "node/13289790634",
+        "amenity": "fast_food",
+        "fast_food": "cafeteria",
+        "name": "Canteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6600759,
+          16.4923011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13737487338",
+      "properties": {
+        "@id": "node/13737487338",
+        "amenity": "fast_food",
+        "name": "Catering Stall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6175447,
+          16.5170183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13737487339",
+      "properties": {
+        "@id": "node/13737487339",
+        "amenity": "fast_food",
+        "name": "Fruits and Fruit Juice Stall",
+        "note": "Apart from the sale of some fruits, this stall is identical to other catering stalls at any station - it sells water, snacks, etc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6173898,
+          16.5171519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14058657701",
+      "properties": {
+        "@id": "node/14058657701",
+        "amenity": "restaurant",
+        "check_date": "2026-07-29",
+        "name": "United Telugu Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6474356,
+          16.5045322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14068867012",
+      "properties": {
+        "@id": "node/14068867012",
+        "addr:city": "Vijayawada",
+        "addr:street": "Bandar Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:ks": "ڈومینوز",
+        "brand:pa": "ਡੋਮੀਨੋਜ਼",
+        "brand:ur": "ڈومینوز",
+        "brand:wikidata": "Q839466",
+        "brand:wikipedia": "en:Domino's Pizza",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "name:ks": "ڈومینوز",
+        "name:pa": "ਡੋਮੀਨੋਜ਼",
+        "name:ur": "ڈومینوز",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6517618,
+          16.4990144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14333908030",
+      "properties": {
+        "@id": "node/14333908030",
+        "amenity": "cafe",
+        "check_date": "2026-10-30",
+        "name": "Bruvos Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6306361,
+          16.5098921
+        ]
+      }
+    }
+  ]
+}

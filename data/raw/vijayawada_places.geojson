@@ -1,0 +1,2682 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-22T05:38:18Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/177626354",
+      "properties": {
+        "@id": "way/177626354",
+        "barrier": "wall",
+        "leisure": "park",
+        "name": "Rajiv Gandhi Park",
+        "name:etymology:wikidata": "Q4593",
+        "name:te": "రాజీవ్ గాంధీ పార్కు",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6125389,
+          16.5091252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/279711127",
+      "properties": {
+        "@id": "way/279711127",
+        "leisure": "park",
+        "name": "Avatar Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6171089,
+          16.5109023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/280213319",
+      "properties": {
+        "@id": "way/280213319",
+        "leisure": "park",
+        "name": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6684609,
+          16.4947414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/280460630",
+      "properties": {
+        "@id": "way/280460630",
+        "leisure": "park",
+        "name": "K.L.Rao Park",
+        "name:etymology:wikidata": "Q6365681",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6153621,
+          16.5362121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341761610",
+      "properties": {
+        "@id": "way/341761610",
+        "leisure": "park",
+        "name": "Scrap Sculpture Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6182927,
+          16.5116956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343152072",
+      "properties": {
+        "@id": "way/343152072",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "name": "Masjid (mosque)",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6584071,
+          16.524235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343172104",
+      "properties": {
+        "@id": "way/343172104",
+        "addr:city": "Vijayawada",
+        "addr:street": "Gunadala",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "check_date": "2025-07-11",
+        "name": "St. Mary's Church, Gunadala",
+        "religion": "christian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6595423,
+          16.5207922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343426054",
+      "properties": {
+        "@id": "way/343426054",
+        "addr:housenumber": "noorani masjid",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Noorani Masjid",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6643036,
+          16.5165716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343427568",
+      "properties": {
+        "@id": "way/343427568",
+        "leisure": "park",
+        "name": "Veterinary Colony Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6660698,
+          16.5145014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/401732753",
+      "properties": {
+        "@id": "way/401732753",
+        "addr:housenumber": "saibaba temple",
+        "addr:street": "JS Raju Road",
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2025-07-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Saibaba Temple",
+        "religion": "hindu",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6348347,
+          16.5265593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/401732865",
+      "properties": {
+        "@id": "way/401732865",
+        "addr:housenumber": "temple",
+        "addr:street": "JS Raju Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2025-07-10",
+        "name": "Anjaneya Swamy Temple",
+        "religion": "hindu",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6314757,
+          16.5239243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/402653110",
+      "properties": {
+        "@id": "way/402653110",
+        "addr:city": "Vijayawada",
+        "addr:district": "NTR",
+        "addr:housenumber": "61-3/4-2, Balaji Nagar, Krishna Lanka, Vijayawada, Andhra Pradesh 530013",
+        "addr:postcode": "530013",
+        "addr:street": "NH16",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Karis Pradhana mandhiram",
+        "religion": "christian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6423718,
+          16.4962885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403022741",
+      "properties": {
+        "@id": "way/403022741",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520008",
+        "addr:street": "Srinivasa Nagar Colony",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "name": "Siddhi Vinayaka Temple",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6687405,
+          16.5131392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403579462",
+      "properties": {
+        "@id": "way/403579462",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "pradeep hospital",
+        "addr:postcode": "520008",
+        "addr:street": "ELuru Road",
+        "amenity": "place_of_worship",
+        "building": "apartments",
+        "building:levels": "4",
+        "building:material": "brick",
+        "check_date": "2025-07-11",
+        "denomination": "evangelical",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "The Evangelical Prayer Fellowship",
+        "religion": "christian",
+        "roof:levels": "3",
+        "roof:shape": "flat",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6745743,
+          16.5164655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/407534300",
+      "properties": {
+        "@id": "way/407534300",
+        "addr:city": "Vijayawada",
+        "addr:housenumber": "sri dasajanaya svami temple",
+        "addr:postcode": "520008",
+        "addr:street": "Pathuri vari road",
+        "addr:unit": "temple",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2025-07-11",
+        "name": "Hanuman Temple",
+        "religion": "hindu",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6765684,
+          16.5194563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/407669683",
+      "properties": {
+        "@id": "way/407669683",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520008",
+        "addr:street": "Sri Ramachandra Nagar",
+        "leisure": "park",
+        "name": "Nagarjuna Nagar Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6725925,
+          16.5149373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/415404181",
+      "properties": {
+        "@id": "way/415404181",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "name": "Ramalayam",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6376112,
+          16.5276709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/415404214",
+      "properties": {
+        "@id": "way/415404214",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "name": "Sivalayam",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6375608,
+          16.5278884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/416003672",
+      "properties": {
+        "@id": "way/416003672",
+        "addr:city": "VIJAYAWADA",
+        "addr:district": "NTR",
+        "addr:housenumber": "GJ6Q+FFX, Unnamed Road, Moghalrajpuram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "addr:postcode": "520002",
+        "addr:street": "BELLAPU SHOBANADRI STREET",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Mutyalamma talli Temple",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6387725,
+          16.5112348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/510664886",
+      "properties": {
+        "@id": "way/510664886",
+        "addr:city": "Vijayawada",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Saibaba Temple",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6601531,
+          16.5032094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/656147216",
+      "properties": {
+        "@id": "way/656147216",
+        "leisure": "park",
+        "name": "G. V. S Sastri Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6386652,
+          16.5218908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/656858409",
+      "properties": {
+        "@id": "way/656858409",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-06-18",
+        "name": "Baitunnoor Masjid",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.639519,
+          16.5254806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/658030072",
+      "properties": {
+        "@id": "way/658030072",
+        "leisure": "park",
+        "name": "Railway Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6417505,
+          16.5228166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/793137676",
+      "properties": {
+        "@id": "way/793137676",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-24",
+        "name": "sri vijayeshawara temple",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6060846,
+          16.5128386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832677901",
+      "properties": {
+        "@id": "way/832677901",
+        "addr:city": "vijayawada",
+        "addr:postcode": "520007",
+        "addr:street": "LIC colony 4th lane",
+        "description": "quite good for any atmosphere",
+        "leisure": "park",
+        "name": "Nelson Mandela park",
+        "name:etymology:wikidata": "Q8023",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6555485,
+          16.5079251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832677904",
+      "properties": {
+        "@id": "way/832677904",
+        "leisure": "park",
+        "name": "Jaiprakash nagar Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6552466,
+          16.5107831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/835447827",
+      "properties": {
+        "@id": "way/835447827",
+        "leisure": "park",
+        "name": "Gandhi Park",
+        "name:etymology:wikidata": "Q1001",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6140649,
+          16.5149902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/961998391",
+      "properties": {
+        "@id": "way/961998391",
+        "leisure": "park",
+        "name": "Chaya Tennis Academy",
+        "opening_hours": "Tu-Su 06:00-8:30 16:00-20:30 Mo off",
+        "operator": "Damodar",
+        "phone": "+919505236006",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6531624,
+          16.496111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1172641223",
+      "properties": {
+        "@id": "way/1172641223",
+        "leisure": "park",
+        "name": "Lenin Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.626473,
+          16.5143279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1246203333",
+      "properties": {
+        "@id": "way/1246203333",
+        "addr:housenumber": "ramalay temple",
+        "addr:unit": "vijayawada",
+        "amenity": "place_of_worship",
+        "building": "construction",
+        "building:material": "cement_block",
+        "name": "Ramalayam Temple",
+        "religion": "hindu",
+        "roof:shape": "pyramidal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6153664,
+          16.5276681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1246231633",
+      "properties": {
+        "@id": "way/1246231633",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "denomination": "roman_catholic",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Iskcon Temple",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "hindu",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6472751,
+          16.4931374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1248886875",
+      "properties": {
+        "@id": "way/1248886875",
+        "area": "yes",
+        "artwork_type": "statue",
+        "name": "NTR Circle",
+        "tourism": "artwork",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6579717,
+          16.4967356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1248886876",
+      "properties": {
+        "@id": "way/1248886876",
+        "amenity": "place_of_worship",
+        "name": "St Pauls Church",
+        "religion": "christian",
+        "wikidata": "Q122871499",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6568609,
+          16.4994113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1266782009",
+      "properties": {
+        "@id": "way/1266782009",
+        "leisure": "park",
+        "name": "Normal park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5974048,
+          16.5345975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1292099918",
+      "properties": {
+        "@id": "way/1292099918",
+        "addr:city": "vijayawada",
+        "addr:district": "krishna",
+        "addr:postcode": "520003",
+        "leisure": "park",
+        "name": "common park",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6350166,
+          16.5290887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1343467575",
+      "properties": {
+        "@id": "way/1343467575",
+        "area": "yes",
+        "barrier": "wall",
+        "name": "Statue of Social Justice",
+        "start_date": "2024-01-19",
+        "tourism": "attraction",
+        "wikidata": "Q60760239",
+        "wikimedia_commons": "Category:Statue of Social Justice",
+        "wikipedia": "en:Statue of Social Justice",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6314484,
+          16.5072818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1359302226",
+      "properties": {
+        "@id": "way/1359302226",
+        "addr:housenumber": "rama temple",
+        "addr:street": "Potti Sriramulu College Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-10",
+        "name": "Rama Temple",
+        "religion": "hindu",
+        "roof:shape": "pyramidal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6139429,
+          16.5230422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413444228",
+      "properties": {
+        "@id": "way/1413444228",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-24",
+        "name": "sivalayam",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6085673,
+          16.5131366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413444562",
+      "properties": {
+        "@id": "way/1413444562",
+        "addr:city": "Vijayawada",
+        "addr:district": "Krishna",
+        "addr:postcode": "520001",
+        "addr:street": "Kanaka Durga Temple Ghat Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-07-24",
+        "name": "kanaka durga temple",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6065324,
+          16.5153782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1435715507",
+      "properties": {
+        "@id": "way/1435715507",
+        "leisure": "park",
+        "name": "Lotus Park",
+        "operator": "Lotus Landmark",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6249692,
+          16.5291011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1435717208",
+      "properties": {
+        "@id": "way/1435717208",
+        "addr:city": "Vijayawada",
+        "addr:district": "Krishna",
+        "addr:postcode": "520003",
+        "addr:street": "Road Number 10, Sector 1",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Hanuman Temple, Lotus Landmark",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6251994,
+          16.5298163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1436671087",
+      "properties": {
+        "@id": "way/1436671087",
+        "addr:city": "vijayawada",
+        "addr:district": "NTR",
+        "addr:postcode": "520010",
+        "addr:street": "DARSIPETA PATAMATA",
+        "leisure": "park",
+        "name": "DARSIPETA PARK",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "operator": "GOVERNEMENT",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6578777,
+          16.4932976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243954161",
+      "properties": {
+        "@id": "node/3243954161",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520015",
+        "addr:street": "Azith Singh Nagar",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "denomination": "shaktism",
+        "description": "Temple",
+        "name": "Hindu Temple Ganganamma Gudi",
+        "opening_hours": "24/7",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6411125,
+          16.5383814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243954162",
+      "properties": {
+        "@id": "node/3243954162",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520015",
+        "addr:street": "Ganganamma Temple Street",
+        "amenity": "place_of_worship",
+        "denomination": "sai_baba",
+        "name": "Saibaba Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6410106,
+          16.5384071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243954163",
+      "properties": {
+        "@id": "node/3243954163",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520015",
+        "amenity": "place_of_worship",
+        "denomination": "vaishnavism",
+        "name": "Ramalayam",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6409301,
+          16.5383968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243954167",
+      "properties": {
+        "@id": "node/3243954167",
+        "addr:city": "Vijayawada",
+        "addr:postcode": "520015",
+        "addr:street": "Azith Singh Nagar",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Noor-e-Islam Mohalla Masjid",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6416205,
+          16.5367534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3243954168",
+      "properties": {
+        "@id": "node/3243954168",
+        "amenity": "place_of_worship",
+        "name": "Rizwan Masjid",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6403833,
+          16.5381173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3521447076",
+      "properties": {
+        "@id": "node/3521447076",
+        "amenity": "place_of_worship",
+        "name": "Hanuman Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6537925,
+          16.4974372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4066539812",
+      "properties": {
+        "@id": "node/4066539812",
+        "leisure": "park",
+        "name": "The Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6722687,
+          16.5203882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4617418468",
+      "properties": {
+        "@id": "node/4617418468",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-24",
+        "description": "they worship priests of god instead of god",
+        "name": "Masjid",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6153378,
+          16.5189863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4617425834",
+      "properties": {
+        "@id": "node/4617425834",
+        "amenity": "place_of_worship",
+        "name": "Masjid",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6390761,
+          16.5429074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4746266925",
+      "properties": {
+        "@id": "node/4746266925",
+        "addr:housenumber": "1 Arundelpet",
+        "addr:postcode": "520002",
+        "addr:street": "Rahman Street",
+        "amenity": "place_of_worship",
+        "check_date": "2024-06-19",
+        "name": "Masjid E Mehroon r",
+        "name:en": "Masjid E Mehroon r",
+        "opening_hours": "24/7",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6313356,
+          16.5148373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5694111525",
+      "properties": {
+        "@id": "node/5694111525",
+        "artwork_type": "statue",
+        "name": "Comrade Chandra Rajeswara Rao",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6177243,
+          16.5112502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6202692290",
+      "properties": {
+        "@id": "node/6202692290",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "name": "Padmavathi Venkateshwara Swami Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6123312,
+          16.5306841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6207605187",
+      "properties": {
+        "@id": "node/6207605187",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "name": "Temple",
+        "name:te": "శ్రీ కోదండ రామాలయం",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6356967,
+          16.50044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6249490985",
+      "properties": {
+        "@id": "node/6249490985",
+        "alt_name": "Victoria Jubilee Museum",
+        "name": "Bapu Museum",
+        "tourism": "museum",
+        "wikidata": "Q4543123",
+        "wikipedia": "en:Bapu Museum, Vijayawada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.627559,
+          16.5080008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6694788979",
+      "properties": {
+        "@id": "node/6694788979",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-24",
+        "name": "Vinayaka Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6109003,
+          16.5122174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6776207486",
+      "properties": {
+        "@id": "node/6776207486",
+        "addr:street": "Perhaps araganavada",
+        "amenity": "place_of_worship",
+        "name": "Vanugopalswami temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6389143,
+          16.4973341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6799727597",
+      "properties": {
+        "@id": "node/6799727597",
+        "amenity": "place_of_worship",
+        "name": "Kali Matha Temple",
+        "name:te": "కాలి మాత టెంపల్",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6173241,
+          16.5086629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6866111156",
+      "properties": {
+        "@id": "node/6866111156",
+        "leisure": "park",
+        "name": "Rg playground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6348404,
+          16.5420347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8386579052",
+      "properties": {
+        "@id": "node/8386579052",
+        "amenity": "place_of_worship",
+        "name": "Masjid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.647061,
+          16.5271467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8386719318",
+      "properties": {
+        "@id": "node/8386719318",
+        "amenity": "place_of_worship",
+        "name": "Sai Baba Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6472792,
+          16.5295516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10895323858",
+      "properties": {
+        "@id": "node/10895323858",
+        "artwork_type": "statue",
+        "name": "Vladimir Lenin",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6265822,
+          16.5143936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11064998905",
+      "properties": {
+        "@id": "node/11064998905",
+        "addr:postcode": "520015",
+        "addr:street": "PNT Colony",
+        "amenity": "place_of_worship",
+        "name": "Nukalamma Gudi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6372758,
+          16.5405973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11537200736",
+      "properties": {
+        "@id": "node/11537200736",
+        "artwork_type": "statue",
+        "name": "Mary Matha Grotto",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6589545,
+          16.5188694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11540283966",
+      "properties": {
+        "@id": "node/11540283966",
+        "access": "yes",
+        "leisure": "park",
+        "name": "Raghavaiah Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6258015,
+          16.507938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11571990782",
+      "properties": {
+        "@id": "node/11571990782",
+        "amenity": "place_of_worship",
+        "check_date": "2024-01-31",
+        "name": "All Nations Church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6456832,
+          16.5063605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11578431090",
+      "properties": {
+        "@id": "node/11578431090",
+        "amenity": "place_of_worship",
+        "name": "Rama Mandiram",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6305269,
+          16.513854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11578959730",
+      "properties": {
+        "@id": "node/11578959730",
+        "amenity": "place_of_worship",
+        "name": "Gunadala Matha Shrine",
+        "name:te": "గుణదల మాతా పుణ్యక్షేత్రం",
+        "religion": "christian",
+        "wikidata": "Q16251838",
+        "wikipedia": "Gunadala Matha Shrine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6588887,
+          16.5187985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018204",
+      "properties": {
+        "@id": "node/11579018204",
+        "artwork_type": "statue",
+        "name": "Jesus condemned to death",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6583854,
+          16.5189196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018205",
+      "properties": {
+        "@id": "node/11579018205",
+        "artwork_type": "statue",
+        "name": "Jesus takes up his Cross",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.658123,
+          16.5188269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018206",
+      "properties": {
+        "@id": "node/11579018206",
+        "artwork_type": "statue",
+        "name": "Jesus falls the first time",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6578453,
+          16.5186865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018207",
+      "properties": {
+        "@id": "node/11579018207",
+        "artwork_type": "statue",
+        "name": "Jesus meets his Mother",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6575824,
+          16.5185479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018208",
+      "properties": {
+        "@id": "node/11579018208",
+        "artwork_type": "statue",
+        "name": "Simon aids Jesus with the Cross",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6573212,
+          16.5183961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018209",
+      "properties": {
+        "@id": "node/11579018209",
+        "artwork_type": "statue",
+        "name": "Veronica wipes the face of Jesus",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6571076,
+          16.5182001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018210",
+      "properties": {
+        "@id": "node/11579018210",
+        "artwork_type": "statue",
+        "name": "Jesus falls for the second time",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6569492,
+          16.5179818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018211",
+      "properties": {
+        "@id": "node/11579018211",
+        "artwork_type": "statue",
+        "name": "Jesus meets the women of Jerusalem",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6568177,
+          16.5177215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018212",
+      "properties": {
+        "@id": "node/11579018212",
+        "artwork_type": "statue",
+        "name": "Jesus falls for the third time",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6566769,
+          16.5174514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018213",
+      "properties": {
+        "@id": "node/11579018213",
+        "artwork_type": "statue",
+        "name": "Jesus stripped of his garments",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6565394,
+          16.5171966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018214",
+      "properties": {
+        "@id": "node/11579018214",
+        "artwork_type": "statue",
+        "name": "Jesus nailed to the Cross",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6563999,
+          16.5169311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018215",
+      "properties": {
+        "@id": "node/11579018215",
+        "artwork_type": "statue",
+        "name": "Jesus dies on the Cross",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6563139,
+          16.5166489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579018216",
+      "properties": {
+        "@id": "node/11579018216",
+        "artwork_type": "statue",
+        "name": "Jesus taken down from the Cross",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6562612,
+          16.5163854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579090109",
+      "properties": {
+        "@id": "node/11579090109",
+        "artwork_type": "statue",
+        "name": "Jesus laid in the tomb",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6563113,
+          16.5161304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11579479480",
+      "properties": {
+        "@id": "node/11579479480",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-14",
+        "name": "Beasent road Church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6338288,
+          16.5094839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11585801996",
+      "properties": {
+        "@id": "node/11585801996",
+        "historic": "memorial",
+        "name": "Mahatma Gandhi Stupa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6169872,
+          16.5201061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11607180565",
+      "properties": {
+        "@id": "node/11607180565",
+        "artwork_type": "statue",
+        "name": "Babu  Jagjivan Ram",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6775525,
+          16.5241169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11608677703",
+      "properties": {
+        "@id": "node/11608677703",
+        "artwork_type": "statue",
+        "name": "Gowthama Buddha Statue",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6480097,
+          16.505981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11610258240",
+      "properties": {
+        "@id": "node/11610258240",
+        "access": "private",
+        "amenity": "place_of_worship",
+        "name": "Chapel",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6617617,
+          16.5120739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11618920796",
+      "properties": {
+        "@id": "node/11618920796",
+        "leisure": "park",
+        "name": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6568237,
+          16.4973408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11618920799",
+      "properties": {
+        "@id": "node/11618920799",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lakshmi Temple",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "hindu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6590674,
+          16.4961181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11652965015",
+      "properties": {
+        "@id": "node/11652965015",
+        "addr:city": "Bhavanipuram",
+        "addr:district": "Krishna",
+        "addr:postcode": "520012",
+        "addr:street": "Swathi Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Masid",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5942038,
+          16.5260165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11653388184",
+      "properties": {
+        "@id": "node/11653388184",
+        "alt_name": "Ambedkar Statue",
+        "artwork_type": "statue",
+        "height": "63",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ambedkar_museum.jpg",
+        "material": "concrete",
+        "memorial": "statue",
+        "name": "Statue of Social Justice",
+        "subject:wikidata": "Q231690",
+        "tourism": "artwork",
+        "wikimedia_commons": "File:The Statue of Social Justice at Vijayawada.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6314837,
+          16.5071636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11697416900",
+      "properties": {
+        "@id": "node/11697416900",
+        "check_date": "2024-03-06",
+        "name": "Pavan Aquarium & Pets",
+        "tourism": "aquarium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6356272,
+          16.5353942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11749598706",
+      "properties": {
+        "@id": "node/11749598706",
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-17",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Philadelphia Ag Church",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "christian",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6042446,
+          16.5377918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11980458659",
+      "properties": {
+        "@id": "node/11980458659",
+        "amenity": "place_of_worship",
+        "check_date": "2024-06-18",
+        "name": "Satya Suvartha Pradhana Sahavasam",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381927,
+          16.5221231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12100640859",
+      "properties": {
+        "@id": "node/12100640859",
+        "artwork_type": "statue",
+        "name": "Y. S. Rajasekhara Reddy's statue",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6181099,
+          16.5080866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12100684148",
+      "properties": {
+        "@id": "node/12100684148",
+        "artwork_type": "statue",
+        "name": "Mohandas Karamchand Gandhi",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6180376,
+          16.5080488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12399018915",
+      "properties": {
+        "@id": "node/12399018915",
+        "amenity": "place_of_worship",
+        "check_date": "2024-12-06",
+        "name": "church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6441757,
+          16.5312265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12434974241",
+      "properties": {
+        "@id": "node/12434974241",
+        "leisure": "park",
+        "name": "Dr. B.R. Ambedkar Park",
+        "operator": "Vijayawada Municipal Corporation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6246413,
+          16.5077629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12595576707",
+      "properties": {
+        "@id": "node/12595576707",
+        "leisure": "park",
+        "name": "ramaiha park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6700828,
+          16.4900198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12596407046",
+      "properties": {
+        "@id": "node/12596407046",
+        "leisure": "park",
+        "name": "Jump N Fly Trampoline Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6123603,
+          16.5097716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12846342126",
+      "properties": {
+        "@id": "node/12846342126",
+        "amenity": "place_of_worship",
+        "name": "church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6440386,
+          16.5325338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12848678470",
+      "properties": {
+        "@id": "node/12848678470",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "denomination": "roman_catholic",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Iskcon Temple",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "hindu",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6471889,
+          16.4929503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852770387",
+      "properties": {
+        "@id": "node/12852770387",
+        "amenity": "place_of_worship",
+        "check_date": "2025-05-21",
+        "name": "Heaven's Way Chruch",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6398785,
+          16.5064485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852791609",
+      "properties": {
+        "@id": "node/12852791609",
+        "amenity": "place_of_worship",
+        "check_date": "2025-05-21",
+        "name": "Blessings Chruch",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6398703,
+          16.506598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12852896010",
+      "properties": {
+        "@id": "node/12852896010",
+        "amenity": "place_of_worship",
+        "check_date": "2025-05-21",
+        "name": "Sri Venkateswara Swami Vari Devastanam",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6398283,
+          16.5093066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854824436",
+      "properties": {
+        "@id": "node/12854824436",
+        "amenity": "place_of_worship",
+        "name": "temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6381478,
+          16.528774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854856215",
+      "properties": {
+        "@id": "node/12854856215",
+        "amenity": "place_of_worship",
+        "name": "temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6384295,
+          16.5295841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12854880981",
+      "properties": {
+        "@id": "node/12854880981",
+        "amenity": "place_of_worship",
+        "name": "temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6230903,
+          16.5178797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12862609447",
+      "properties": {
+        "@id": "node/12862609447",
+        "amenity": "place_of_worship",
+        "name": "temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6480977,
+          16.5300477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12875503993",
+      "properties": {
+        "@id": "node/12875503993",
+        "leisure": "park",
+        "name": "Kanaka Durga Officers Colony Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6629588,
+          16.5047959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12990040106",
+      "properties": {
+        "@id": "node/12990040106",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-09",
+        "name": "Church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6262082,
+          16.5327412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991227542",
+      "properties": {
+        "@id": "node/12991227542",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Abhaya Anjaneya Swamy Temple",
+        "religion": "hindu",
+        "service_times": "6:00am-12:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6711028,
+          16.4978805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991256496",
+      "properties": {
+        "@id": "node/12991256496",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Masjid-e-raheemiya",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "muslim",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6769975,
+          16.5033701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991275601",
+      "properties": {
+        "@id": "node/12991275601",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Masjid-e-raheemiya",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "muslim",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6761345,
+          16.503214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12991880239",
+      "properties": {
+        "@id": "node/12991880239",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "name": "Kanakadhurga Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6064951,
+          16.5153919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992236867",
+      "properties": {
+        "@id": "node/12992236867",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Grace Church",
+        "opening_hours": "Su 06:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "religion": "christian",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6627388,
+          16.4884939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992451033",
+      "properties": {
+        "@id": "node/12992451033",
+        "artist_name": "Yes",
+        "artwork_type": "sculpture",
+        "name": "Statue",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6341837,
+          16.5013719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12992470362",
+      "properties": {
+        "@id": "node/12992470362",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-10",
+        "name": "Ramalayam Temple",
+        "religion": "hindu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6356912,
+          16.5004382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993372289",
+      "properties": {
+        "@id": "node/12993372289",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Anjaneya Swamy Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6808869,
+          16.4841511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993492592",
+      "properties": {
+        "@id": "node/12993492592",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Sri Dhasanjaneya Swamy Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6521386,
+          16.5194528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993627243",
+      "properties": {
+        "@id": "node/12993627243",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Sri Anaga Datha Mandhir",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6668742,
+          16.5230837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12993630561",
+      "properties": {
+        "@id": "node/12993630561",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Sivalayam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.666046,
+          16.5232784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994274351",
+      "properties": {
+        "@id": "node/12994274351",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "internet_access": "no",
+        "name": "Panchamukhi Anjaneya Swamy Temple",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "religion": "hindu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6111911,
+          16.5215511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994296463",
+      "properties": {
+        "@id": "node/12994296463",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Venkateswara Swamy Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6112539,
+          16.5211016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994379803",
+      "properties": {
+        "@id": "node/12994379803",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Ganesh Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6513258,
+          16.5054215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12994416447",
+      "properties": {
+        "@id": "node/12994416447",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-11",
+        "name": "Hanuman Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.638381,
+          16.4980033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995218992",
+      "properties": {
+        "@id": "node/12995218992",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-12",
+        "name": "Muthyalamma Temple",
+        "opening_hours": "06:00-19:00",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6418521,
+          16.5190426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12995541197",
+      "properties": {
+        "@id": "node/12995541197",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-12",
+        "name": "Sai Baba Temple Near Krishnalanka Vijayawada",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6307145,
+          16.4990471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12996617125",
+      "properties": {
+        "@id": "node/12996617125",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-13",
+        "name": "Philadelphia Ag Church",
+        "opening_hours": "24/7",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6044464,
+          16.5379072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12996831234",
+      "properties": {
+        "@id": "node/12996831234",
+        "amenity": "place_of_worship",
+        "name": "church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6329246,
+          16.5176417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13136432013",
+      "properties": {
+        "@id": "node/13136432013",
+        "amenity": "place_of_worship",
+        "name": "Shivalayam ,",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5961916,
+          16.5313599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13137410531",
+      "properties": {
+        "@id": "node/13137410531",
+        "amenity": "place_of_worship",
+        "name": "Dargha Hazrat Galib Shaheed Rahmatullah ALei & Masjid E Galib Shaheed",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5900659,
+          16.5302179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13204693406",
+      "properties": {
+        "@id": "node/13204693406",
+        "amenity": "place_of_worship",
+        "name": "sai baba temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6348496,
+          16.526557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13437465600",
+      "properties": {
+        "@id": "node/13437465600",
+        "artwork_type": "bust",
+        "name": "Mahatma Gandhi",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6180611,
+          16.5080417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13437488846",
+      "properties": {
+        "@id": "node/13437488846",
+        "artwork_type": "statue",
+        "name": "YSR",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.618107,
+          16.5080774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13444469250",
+      "properties": {
+        "@id": "node/13444469250",
+        "artwork_type": "statue",
+        "name": "Ambedkar",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6452933,
+          16.505525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13446571999",
+      "properties": {
+        "@id": "node/13446571999",
+        "artwork_type": "bust",
+        "name": "Comrade Bellapu Sodanadri",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6374192,
+          16.5081324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13950482337",
+      "properties": {
+        "@id": "node/13950482337",
+        "historic": "archaeological_site",
+        "name": "Akkanna Madanna Caves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6063433,
+          16.5137249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14058680101",
+      "properties": {
+        "@id": "node/14058680101",
+        "amenity": "place_of_worship",
+        "check_date": "2026-07-29",
+        "name": "Sai Baba Temple",
+        "religion": "hindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6227322,
+          16.5200774
+        ]
+      }
+    }
+  ]
+}

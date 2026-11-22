@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secret files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Cache and logs
+.cache/
+cache/
+*.log
+
+# Backup folder
+ml_backup/
+
+# Operating system files
+.DS_Store
+Thumbs.db
