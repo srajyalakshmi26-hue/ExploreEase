@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: exploreease-api
+    runtime: python
+    plan: free
+    region: singapore
+
+    buildCommand: pip install -r backend/requirements.txt
+
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
+    healthCheckPath: /health
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+
+      - key: APP_NAME
+        value: ExploreEase API
+
+      - key: API_V1_PREFIX
+        value: /api/v1
+
+      - key: SECRET_KEY
+        generateValue: true
+
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 60
+
+      - key: DATABASE_URL
+        sync: false
+
+      - key: CORS_ORIGINS
+        value: http://localhost:5173,http://127.0.0.1:5173
