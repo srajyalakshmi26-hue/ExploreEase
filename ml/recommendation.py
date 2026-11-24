@@ -14,9 +14,17 @@ from ml.ai_analysis import (
     rank_places,
     get_popular_places
 )
+
 from ml.new_features.recommendation_engine import (
     recommend_places as recommend_places_with_ai
 )
+
+from ml.new_features.review_analysis import (
+    analyze_reviews,
+    get_review_summary,
+    analyze_feedback_topics
+)
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -443,6 +451,10 @@ def recommend_popular_places(
     live_data=None
 ):
 
+    from ml.new_features.popularity_analysis import (
+        calculate_popularity_score
+    )
+
     if live_data is None:
         live_data = collect_and_process_city_data(city)
 
@@ -454,10 +466,29 @@ def recommend_popular_places(
         == city.strip().lower()
     ].copy()
 
-    return get_popular_places(
-        city_places,
-        limit=limit
-    )
+    required_columns = [
+        "Place_ID",
+        "Rating",
+        "Review_Count"
+    ]
+
+    if not all(column in city_places.columns for column in required_columns):
+        return pd.DataFrame()
+
+    popular_places = calculate_popularity_score(city_places)
+
+    if popular_places.empty:
+        return pd.DataFrame()
+
+    return popular_places.sort_values(
+        "Popularity_Score",
+        ascending=False
+    ).head(limit).reset_index(drop=True)
+
+
+# ----------------------------------
+# AI PLACE RECOMMENDATIONS
+# ----------------------------------
 
 def recommend_ai_places(places, limit=10):
 
@@ -473,6 +504,7 @@ def recommend_ai_places(places, limit=10):
         return ranked_places
 
     return ranked_places.head(limit).reset_index(drop=True)
+
 
 # ----------------------------------
 # LIVE RESTAURANTS WITH VERIFIED FOOD PRICES
@@ -506,16 +538,45 @@ def recommend_restaurants_with_food_prices(
         restaurants["Food_Price_Status"] = "Not available"
         return restaurants
 
-    if "Place_ID" not in restaurants.columns:
-        restaurants["Food_Prices"] = None
-        restaurants["Food_Price_Status"] = "Restaurant ID unavailable"
-        return restaurants
+    def find_food_prices(restaurant):
 
-    restaurants["Food_Prices"] = restaurants["Place_ID"].apply(
-        lambda restaurant_id: food_prices[
-            food_prices["Restaurant_ID"].astype(str).str.strip()
-            == str(restaurant_id).strip()
-        ][["Food_Name", "Approx_Price", "Currency"]].to_dict("records")
+        matched_food = pd.DataFrame()
+
+        # Match by restaurant ID first
+        if (
+            "Place_ID" in restaurants.columns
+            and "Restaurant_ID" in food_prices.columns
+        ):
+
+            matched_food = food_prices[
+                food_prices["Restaurant_ID"].astype(str).str.strip()
+                == str(restaurant["Place_ID"]).strip()
+            ]
+
+        # If IDs do not match, try matching restaurant names
+        if matched_food.empty:
+
+            if (
+                "Place_Name" in restaurants.columns
+                and "Restaurant_Name" in food_prices.columns
+            ):
+
+                matched_food = food_prices[
+                    food_prices["Restaurant_Name"]
+                    .astype(str).str.strip().str.lower()
+                    == str(restaurant["Place_Name"]).strip().lower()
+                ]
+
+        if matched_food.empty:
+            return []
+
+        return matched_food[
+            ["Food_Name", "Approx_Price", "Currency"]
+        ].to_dict("records")
+
+    restaurants["Food_Prices"] = restaurants.apply(
+        find_food_prices,
+        axis=1
     )
 
     restaurants["Food_Price_Status"] = restaurants[
@@ -526,6 +587,12 @@ def recommend_restaurants_with_food_prices(
     )
 
     return restaurants
+
+
+# ----------------------------------
+# PERSONALIZED RECOMMENDATIONS
+# ----------------------------------
+
 def get_personalized_recommendations(
     places,
     interests=None,
@@ -533,6 +600,7 @@ def get_personalized_recommendations(
     minimum_rating=None,
     limit=10
 ):
+
     return recommend_places_with_ai(
         places=places,
         interests=interests,

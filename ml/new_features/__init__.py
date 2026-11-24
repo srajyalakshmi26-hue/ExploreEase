@@ -33,3 +33,4 @@ from .data_updater import (
     update_location_data,
     get_update_summary
 )
+from .route_service import get_route

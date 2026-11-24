@@ -12,6 +12,8 @@ from ml.fare_analysis import (
     estimate_transport_fare
 )
 
+from ml.new_features.route_service import get_route
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -108,19 +110,18 @@ def get_place_costs(places, country=None, currency=None):
 
     costs = costs.drop_duplicates()
 
-    # Do not choose an arbitrary fee when multiple currencies
-    # or country records match the same place.
     costs["_Match_Count"] = costs.groupby(
         merge_columns
     )["Place_Name"].transform("size")
 
     costs = costs[costs["_Match_Count"] == 1].copy()
-
     costs = costs.drop(columns=["_Match_Count"])
-    places =  places.drop(
+
+    places = places.drop(
         columns=["Entry_Fee", "Entry_Fee_Currency"],
         errors="ignore"
     )
+
     return places.merge(
         costs[
             merge_columns + ["Entry_Fee", "Currency"]
@@ -131,7 +132,6 @@ def get_place_costs(places, country=None, currency=None):
         how="left",
         suffixes=("", "_cost")
     )
-    
 
 
 # ----------------------------------
@@ -194,7 +194,6 @@ def recommend_local_food(
     ].copy()
 
     if restaurant_id is not None:
-
         city_food = city_food[
             city_food["Restaurant_ID"].astype(str).str.strip()
             == str(restaurant_id).strip()
@@ -494,7 +493,6 @@ def create_budget_trip(
         else "Not available"
     )
 
-    # Identify the currency of available verified entry fees.
     available_currencies = (
         city_places["Entry_Fee_Currency"]
         .dropna()
@@ -608,9 +606,60 @@ def create_budget_trip(
             ]
         )
 
+    # ----------------------------------
+    # OSRM ROAD ROUTE INTEGRATION
+    # ----------------------------------
+
+    route_columns = [
+        "Route_Status",
+        "Road_Distance_KM",
+        "Estimated_Travel_Minutes",
+        "Route_Geometry"
+    ]
+
+    for column in route_columns:
+        selected_places[column] = None
+
+    current_lat = float(user_lat)
+    current_lon = float(user_lon)
+
+    for index, place in selected_places.iterrows():
+
+        route = get_route(
+            current_lat,
+            current_lon,
+            float(place["Latitude"]),
+            float(place["Longitude"])
+        )
+
+        selected_places.at[index, "Route_Status"] = route["Status"]
+
+        if route["Status"] == "Success":
+
+            selected_places.at[index, "Road_Distance_KM"] = (
+                route["Distance_KM"]
+            )
+
+            selected_places.at[index, "Estimated_Travel_Minutes"] = (
+                route["Duration_Minutes"]
+            )
+
+            selected_places.at[index, "Route_Geometry"] = (
+                route["Route_Geometry"]
+            )
+
+        current_lat = float(place["Latitude"])
+        current_lon = float(place["Longitude"])
+
     unavailable_places = unavailable_places.reset_index(drop=True)
 
     return selected_places, unavailable_places
+
+
+# ----------------------------------
+# SMART TRIP PLANNER IMPORTS
+# ----------------------------------
+
 from ml.new_features.smart_trip_planner import (
     create_itinerary,
     calculate_complete_budget

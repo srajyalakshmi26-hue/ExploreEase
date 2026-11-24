@@ -8,7 +8,11 @@ from datetime import datetime, timedelta
 from geopy.geocoders import Nominatim
 
 
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+]
 
 geolocator = Nominatim(user_agent="ExploreEase")
 
@@ -59,6 +63,23 @@ def get_cached_data(location, radius):
     return None
 
 
+def get_stale_cached_data(location, radius):
+
+    cache_file = get_cache_file(location, radius)
+
+    if not os.path.exists(cache_file):
+        return None
+
+    try:
+        with open(cache_file, "r", encoding="utf-8") as file:
+            cached = json.load(file)
+
+        return cached["data"]
+
+    except (ValueError, KeyError, OSError, json.JSONDecodeError):
+        return None
+
+
 def save_cached_data(location, radius, data):
 
     cache_file = get_cache_file(location, radius)
@@ -101,21 +122,44 @@ def collect_city_data(city, radius=15000):
     out center tags;
     """
 
-    response = requests.post(
-        OVERPASS_URL,
-        data={"data": query},
-        headers={
-            "User-Agent": "ExploreEase/1.0"
-        },
-        timeout=90
-    )
+    result = None
+    last_error = None
 
-    response.raise_for_status()
+    for url in OVERPASS_URLS:
 
-    result = response.json()
+        try:
+            response = requests.post(
+                url,
+                data={"data": query},
+                headers={
+                    "User-Agent": "ExploreEase/1.0"
+                },
+                timeout=60
+            )
 
-    if result.get("remark"):
-        raise RuntimeError(result["remark"])
+            response.raise_for_status()
+
+            result = response.json()
+
+            if result.get("remark"):
+                raise RuntimeError(result["remark"])
+
+            break
+
+        except (requests.RequestException, ValueError, RuntimeError) as error:
+            last_error = error
+            result = None
+
+    if result is None:
+
+        stale_data = get_stale_cached_data(city, radius)
+
+        if stale_data is not None:
+            return stale_data
+
+        raise RuntimeError(
+            f"All Overpass endpoints failed: {last_error}"
+        )
 
     collected_data = []
 
