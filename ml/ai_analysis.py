@@ -283,3 +283,14 @@ def calculate_recommendation_score(places):
         "Recommendation_Score",
         ascending=False
     ).reset_index(drop=True)
+from ml.new_features.review_analysis import (
+    analyze_reviews,
+    get_review_summary,
+    analyze_feedback_topics
+)
+from ml.new_features.popularity_analysis import (
+    calculate_popularity_score,
+    get_trending_places,
+    get_highly_rated_places,
+    get_less_reviewed_places
+)

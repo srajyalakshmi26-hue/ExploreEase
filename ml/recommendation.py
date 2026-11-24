@@ -14,7 +14,9 @@ from ml.ai_analysis import (
     rank_places,
     get_popular_places
 )
-
+from ml.new_features.recommendation_engine import (
+    recommend_places as recommend_places_with_ai
+)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -524,3 +526,17 @@ def recommend_restaurants_with_food_prices(
     )
 
     return restaurants
+def get_personalized_recommendations(
+    places,
+    interests=None,
+    max_distance=None,
+    minimum_rating=None,
+    limit=10
+):
+    return recommend_places_with_ai(
+        places=places,
+        interests=interests,
+        max_distance=max_distance,
+        minimum_rating=minimum_rating,
+        limit=limit
+    )

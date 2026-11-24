@@ -298,3 +298,7 @@ def verify_food_price(
     submissions.to_csv(SUBMISSION_PATH, index=False)
 
     return "Food price verified successfully"
+from ml.new_features.food_recommendation import (
+    recommend_food,
+    get_food_details
+)

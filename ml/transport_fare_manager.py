@@ -259,3 +259,7 @@ def verify_transport_fare(
     submissions.to_csv(SUBMISSION_PATH, index=False)
 
     return "Transport fare verified successfully"
+from ml.new_features.transport_recommendation import (
+    recommend_transport,
+    get_cheapest_transport
+)

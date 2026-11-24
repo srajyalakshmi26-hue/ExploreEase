@@ -611,3 +611,7 @@ def create_budget_trip(
     unavailable_places = unavailable_places.reset_index(drop=True)
 
     return selected_places, unavailable_places
+from ml.new_features.smart_trip_planner import (
+    create_itinerary,
+    calculate_complete_budget
+)
